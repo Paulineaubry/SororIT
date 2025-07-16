@@ -1,0 +1,32 @@
+SororIT:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: YOUR_USERNAME  # "Pauline", "Aicha", ou "Gaelle"
+      password: YOUR_PASSWORD  # Votre mot de passe personnel
+      port: 5432
+      dbname: dbsoror
+      schema: dev_YOUR_NAME  # dev_pauline, dev_aicha, ou dev_gaelle
+      threads: 4
+    
+    staging:
+      type: postgres
+      host: localhost
+      user: YOUR_USERNAME
+      password: YOUR_PASSWORD
+      port: 5432
+      dbname: dbsoror
+      schema: staging
+      threads: 4
+    
+    prod:
+      type: postgres
+      host: YOUR_PROD_HOST
+      user: YOUR_PROD_USERNAME
+      password: YOUR_PROD_PASSWORD
+      port: 5432
+      dbname: dbsoror_prod
+      schema: public
+      threads: 4
