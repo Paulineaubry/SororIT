@@ -34,6 +34,9 @@ pip install -r requirements.txt
 
 ### 4. Configuration PostgreSQL
 
+# Installe le package dbt-postgres
+pip install dbt-postgres==1.7.9
+
 #### Ubuntu
 ```bash
 sudo -u postgres psql
