@@ -39,6 +39,12 @@ pip install -r requirements.txt
 pip install dbt-postgres==1.7.9
 ```
 
+#### Pour changer votre mot de passe PostgreSQL
+```bash
+ALTER USER Aicha WITH PASSWORD 'nouveau_mdp_aicha';
+ALTER USER Gaelle WITH PASSWORD 'nouveau_mdp_gaelle';
+```
+
 #### Ubuntu
 ```bash
 sudo -u postgres psql
