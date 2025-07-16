@@ -9,7 +9,7 @@
 
 ### 1. Cloner le projet
 ```bash
-git clone https://github.com/ton-username/SororIT.git
+git clone https://github.com/Paulineaubry/SororIT.git
 cd SororIT
 ```
 
