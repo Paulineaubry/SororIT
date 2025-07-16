@@ -47,14 +47,6 @@ psql postgres
 #### Windows
 Utiliser pgAdmin ou psql depuis le menu Windows
 
-#### Commandes SQL communes
-```sql
--- Remplacer YOUR_USERNAME par votre nom d'utilisateur
-CREATE USER "YOUR_USERNAME" WITH PASSWORD 'your_password';
-CREATE DATABASE dbsoror OWNER "YOUR_USERNAME";
-GRANT ALL PRIVILEGES ON DATABASE dbsoror TO "YOUR_USERNAME";
-\q
-```
 
 ### 5. Configuration dbt
 
