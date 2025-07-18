@@ -47,12 +47,9 @@ psql postgres
 #### Windows
 Utiliser pgAdmin ou psql depuis le menu Windows
 
-#### Commandes SQL communes
-```sql
--- Remplacer YOUR_USERNAME par votre nom d'utilisateur
-CREATE USER "YOUR_USERNAME" WITH PASSWORD 'your_password';
-CREATE DATABASE dbsoror OWNER "YOUR_USERNAME";
-GRANT ALL PRIVILEGES ON DATABASE dbsoror TO "YOUR_USERNAME";
+# Pour changer votre mot de passe PostgreSQL
+ALTER USER Aicha WITH PASSWORD 'nouveau_mdp_aicha';
+ALTER USER Gaelle WITH PASSWORD 'nouveau_mdp_gaelle';
 \q
 ```
 
