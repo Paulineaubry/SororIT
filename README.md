@@ -1,143 +1,116 @@
-# Projet SororIT - Guide d'installation
+# SororIT - Application pour les femmes dans la tech
 
-## Prérequis
-- Python 3.8+
-- PostgreSQL installé et configuré
-- Git
+**SororIT** est une application web dédiée aux femmes françaises qui souhaitent s'informer, se former, se connecter et s'inspirer dans le monde du numérique et de la tech.
 
-## Installation
+---
 
-### 1. Cloner le projet
-```bash
-git clone https://github.com/Paulineaubry/SororIT.git
-cd SororIT
-```
+## Objectif du projet
 
-### 2. Créer l'environnement virtuel
+Favoriser l'accès des femmes aux métiers du numérique, en leur proposant des ressources personnalisées, locales et inspirantes.
 
-**Ubuntu/Mac:**
-```bash
-python3 -m venv dbt-env
-source dbt-env/bin/activate
-```
+---
 
-**Windows:**
-```bash
-python -m venv dbt-env
-dbt-env\Scripts\activate
-```
+## Fonctionnalités principales
 
-### 3. Installer les dépendances
-```bash
-pip install -r requirements.txt
-```
+### 1. **We want you**
 
-### 4. Configuration PostgreSQL
+* Regroupe les associations et écoles engagées pour la diversité dans le numérique
+* Données géolocalisées selon la ville / région de l'utilisatrice
 
-#### Installe le package dbt-postgres
-```bash
-pip install dbt-postgres==1.7.9
-```
+### 2. **You can do it**
 
-#### Pour changer votre mot de passe PostgreSQL
-```bash
-ALTER USER Aicha WITH PASSWORD 'nouveau_mdp_aicha';
-ALTER USER Gaelle WITH PASSWORD 'nouveau_mdp_gaelle';
-```
+* Questionnaire interactif
+* Analyse les intérêts et compétences de l'utilisatrice
+* Recommande un domaine tech pour se former (ex : dev, data, design)
 
-#### Ubuntu
-```bash
-sudo -u postgres psql
-```
+### 3. **Good morning techwoman**
 
-#### Mac (avec Homebrew)
-```bash
-psql postgres
-```
+* Propose des ressources inspirantes :
 
-#### Windows
-Utiliser pgAdmin ou psql depuis le menu Windows
+  * Podcasts
+  * Chaînes YouTube
+  * Blogs tech
+* Mises à jour via APIs ou bases collaboratives
 
-<<<<<<< HEAD
-=======
-# Pour changer votre mot de passe PostgreSQL
-ALTER USER Aicha WITH PASSWORD 'nouveau_mdp_aicha';
-ALTER USER Gaelle WITH PASSWORD 'nouveau_mdp_gaelle';
-\q
-```
->>>>>>> e9beaf2 (onboarding.md)
+---
 
-### 5. Configuration dbt
+## Technologies utilisées
 
-Copier le fichier d'exemple :
-```bash
-cp profiles.yml.example ~/.dbt/profiles.yml
-```
+* **Python** / **Flask** : backend de l'application web
+* **Supabase** : hébergement PostgreSQL et gestion des utilisateurs
+* **PostgreSQL** : base de données relationnelle
+* **DBT** : modélisation des données
+* **Pandas** : traitement et manipulation de données
+* **APIs** : pour les ressources (podcasts, assos, etc.)
 
-**Ubuntu/Mac:**
-```bash
-nano ~/.dbt/profiles.yml
-```
-
-**Windows:**
-```bash
-notepad %USERPROFILE%\.dbt\profiles.yml
-```
-
-Modifier les valeurs :
-- `user`: votre nom d'utilisateur PostgreSQL
-- `password`: votre mot de passe PostgreSQL
-- `host`: localhost (ou l'adresse de votre serveur PostgreSQL)
-
-### 6. Tester la configuration
-```bash
-dbt debug
-```
-
-Vous devriez voir `Connection test: [OK]`.
-
-### 7. Exécuter le projet
-```bash
-dbt run
-dbt test
-```
+---
 
 ## Structure du projet
 
-- `models/staging/`: Modèles de données brutes
-- `models/intermediate/`: Transformations intermédiaires
-- `models/marts/`: Modèles finaux pour l'analyse
-- `tests/`: Tests de qualité des données
-- `macros/`: Fonctions réutilisables
+```
+SororIT/
+├── dbt/                  # Projet DBT (models, macros, tests)
+├── flask_app/            # Backend Flask
+├── data/                 # Fichiers CSV / exemples
+├── notebooks/            # Explorations pandas
+├── .dbt/                 # Profiles locaux dbt (non commité)
+├── README.md             # Ce fichier
+├── ONBOARDING.md         # Guide de démarrage équipe
+```
 
-## Bonnes pratiques
+---
 
-1. **Branches Git**: Créer une branche pour chaque fonctionnalité
-2. **Tests**: Toujours tester avant de merger (`dbt test`)
-3. **Documentation**: Documenter les modèles dans les fichiers `.yml`
-4. **Peer Review**: Faire réviser les modifications par un collègue
+## Installation rapide
 
-## Environnements
+```bash
+# Cloner le projet
+git clone https://github.com/Paulineaubry/SororIT.git
+cd SororIT
 
-- **dev**: Développement local (votre schéma personnel)
-- **staging**: Tests d'intégration (optionnel)
-- **prod**: Production (attention aux modifications)
+# Créer et activer l'environnement Python
+python3 -m venv dbt-env
+source dbt-env/bin/activate
 
-## Problèmes courants
+# Installer les dépendances
+pip install -r requirements.txt
+```
 
-### Erreur de connexion PostgreSQL
-- Vérifier que PostgreSQL est démarré
-- Vérifier les identifiants dans `~/.dbt/profiles.yml`
-- Tester la connexion directe : `psql -h localhost -U YOUR_USERNAME -d dbsoror`
+---
 
-### Erreur "dbt command not found"
-- Vérifier que l'environnement virtuel est activé
-- Réinstaller dbt : `pip install dbt-postgres`
+## Commandes utiles
 
-### Conflits de schéma
-- Chaque développeur devrait avoir son propre schéma
-- Utiliser `schema: dev_{{ var('developer_name') }}` dans les modèles
+```bash
+# Lancer DBT
+dbt debug
+dbt run
+dbt test
 
-## Contact
+dbt docs generate
+dbt docs serve
 
-Pour toute question technique, contactez l'équipe sur [canal de communication].
+# Lancer le serveur Flask
+cd flask_app
+flask run
+```
+
+---
+
+## 👥 Équipe et rôles
+
+| Membre  | Fonctionnalité                      | Branche Git              |
+| ------- | ----------------------------------- | ------------------------ |
+| Pauline | Good Morning Techwoman              | `Good_morning_techwoman` |
+| Aicha   | You Can Do It (questionnaire)       | `We_can_do_it`           |
+| Gaëlle  | We Want You (associations + cartes) | `We_want_you`            |
+
+---
+
+## 🚀 Objectifs à venir
+
+* Intégration frontend Flask + templates Jinja
+* Affichage dynamique des associations sur carte
+* API déployable en ligne (Railway, Render, etc.)
+
+---
+
+Pour plus d'infos :contacter l'équipe via GitHub.
