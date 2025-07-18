@@ -127,8 +127,11 @@ Commencez par créer votre branche localement si elle n'existe pas encore (ou la
 # Vérifier les branches distantes disponibles
 git fetch origin
 
-# Créer la branche en local à partir de la distante /  Se placer sur sa branche 
+# Créer la branche en local à partir de la distante 
 git checkout -b We_can_do_it origin/We_can_do_it
+
+# Se placer sur sa branche
+git checkout We_can_do_it
 
 # Ajouter/modifier un modèle
 dbt run
