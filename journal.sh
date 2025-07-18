@@ -1,6 +1,6 @@
 # Journal de configuration SororIT
 
-## 1. Configuration environnement dbt (Pauline)
+## 1. Configuration environnement dbt 
 
 # Environnement virtuel
 python3 -m venv dbt-env
@@ -67,16 +67,11 @@ GRANT ALL PRIVILEGES ON SCHEMA staging TO "Pauline", "Aicha", "Gaelle";
 \q
 ```
 
-# Pour changer votre mot de passe PostgreSQL
-ALTER USER Aicha WITH PASSWORD 'nouveau_mdp_aicha';
-ALTER USER Gaelle WITH PASSWORD 'nouveau_mdp_gaelle';
-
-
 ## 3. Configuration pour chaque membre de l'équipe
 
 ### Pauline (Ubuntu)
 ```yaml
-# ~/.dbt/profiles.yml
+# nano ~/.dbt/profiles.yml
 SororIT:
   target: dev
   outputs:
@@ -93,7 +88,7 @@ SororIT:
 
 ### Aicha (Mac)
 ```yaml
-# ~/.dbt/profiles.yml
+# nano ~/.dbt/profiles.yml
 SororIT:
   target: dev
   outputs:

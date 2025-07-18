@@ -58,6 +58,14 @@ psql postgres
 #### Windows
 Utiliser pgAdmin ou psql depuis le menu Windows
 
+<<<<<<< HEAD
+=======
+# Pour changer votre mot de passe PostgreSQL
+ALTER USER Aicha WITH PASSWORD 'nouveau_mdp_aicha';
+ALTER USER Gaelle WITH PASSWORD 'nouveau_mdp_gaelle';
+\q
+```
+>>>>>>> e9beaf2 (onboarding.md)
 
 ### 5. Configuration dbt
 
