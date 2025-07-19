@@ -95,7 +95,7 @@ flask run
 
 ---
 
-## 👥 Équipe et rôles
+## Équipe et rôles
 
 | Membre  | Fonctionnalité                      | Branche Git              |
 | ------- | ----------------------------------- | ------------------------ |
@@ -105,7 +105,7 @@ flask run
 
 ---
 
-## 🚀 Objectifs à venir
+## Objectifs à venir
 
 * Intégration frontend Flask + templates Jinja
 * Affichage dynamique des associations sur carte
