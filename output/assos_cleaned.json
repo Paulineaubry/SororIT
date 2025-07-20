@@ -1,0 +1,164 @@
+[
+  {
+    "REGION":"Auvergne-Rhône-Alpes",
+    "NOM":"L Digital",
+    "SITE WEB":"https:\/\/www.ldigital.org\/accompagner",
+    "ADRESSE":"",
+    "TYPE":"Association",
+    "LAT":45.2968119,
+    "LON":4.6604809
+  },
+  {
+    "REGION":"Bourgogne-Franche-Comté",
+    "NOM":"Itinér’Elles",
+    "SITE WEB":"https:\/\/itinerelles-bfc.fr\/",
+    "ADRESSE":"Pas De Bureau",
+    "TYPE":"Association",
+    "LAT":null,
+    "LON":null
+  },
+  {
+    "REGION":"Bretagne",
+    "NOM":"Estimnumérique",
+    "SITE WEB":"https:\/\/estimnumerique.com\/",
+    "ADRESSE":"35000 Rennes",
+    "TYPE":"Association",
+    "LAT":48.109138,
+    "LON":-1.6836765
+  },
+  {
+    "REGION":"Centre-Val De Loire",
+    "NOM":"Elles Bougent (Cvl)",
+    "SITE WEB":"orleans@ellesbougent.com",
+    "ADRESSE":"",
+    "TYPE":"Association",
+    "LAT":47.5490251,
+    "LON":1.7324062
+  },
+  {
+    "REGION":"Corse",
+    "NOM":"Tech Up For Women – Délégation Corse",
+    "SITE WEB":"https:\/\/www.isula.corsica\/...\/Tech‑Up‑For‑Women",
+    "ADRESSE":"Ajaccio",
+    "TYPE":"Association",
+    "LAT":41.9263991,
+    "LON":8.7376029
+  },
+  {
+    "REGION":"Grand Est",
+    "NOM":"Femina Tech",
+    "SITE WEB":"https:\/\/www.femina‑tech.fr\/",
+    "ADRESSE":"Strasbourg",
+    "TYPE":"Association",
+    "LAT":48.584614,
+    "LON":7.7507127
+  },
+  {
+    "REGION":"Hauts-De-France",
+    "NOM":"Chtitedev",
+    "SITE WEB":"https:\/\/mobilizon.fr\/@chtitedev",
+    "ADRESSE":"Lille",
+    "TYPE":"Association",
+    "LAT":50.6365654,
+    "LON":3.0635282
+  },
+  {
+    "REGION":"Île-De-France",
+    "NOM":"Social Builder",
+    "SITE WEB":"https:\/\/www.socialbuilder.org\/",
+    "ADRESSE":"Paris",
+    "TYPE":"Association",
+    "LAT":48.8588897,
+    "LON":2.320041
+  },
+  {
+    "REGION":"Normandie",
+    "NOM":"Digit'Elles",
+    "SITE WEB":"https:\/\/www.nwx.fr\/",
+    "ADRESSE":"",
+    "TYPE":"Association",
+    "LAT":49.0677708,
+    "LON":0.3138532
+  },
+  {
+    "REGION":"Nouvelle-Aquitaine",
+    "NOM":"Tech It Girl",
+    "SITE WEB":"https:\/\/www.socialbuilder.org\/",
+    "ADRESSE":"Bordeaux",
+    "TYPE":"Association",
+    "LAT":44.841225,
+    "LON":-0.5800364
+  },
+  {
+    "REGION":"Occitanie",
+    "NOM":"Women In Tech",
+    "SITE WEB":"https:\/\/sandbox.maison-du-numerique-drane-occitanie.fr\/actions-concretes-pour-feminisation-secteur-tech-en-occitanie\/",
+    "ADRESSE":"Montpellier",
+    "TYPE":"Association",
+    "LAT":43.6112422,
+    "LON":3.8767337
+  },
+  {
+    "REGION":"Pays De La Loire",
+    "NOM":"Femmes Du Digital Ouest",
+    "SITE WEB":"femmes-digital-ouest.fr",
+    "ADRESSE":"Nantes",
+    "TYPE":"Association",
+    "LAT":47.2186371,
+    "LON":-1.5541362
+  },
+  {
+    "REGION":"Provence-Alpes-Côte D’Azur (Paca)",
+    "NOM":"Femmes & Sciences Paca",
+    "SITE WEB":"femmesetsciences.fr\/PACA",
+    "ADRESSE":"Marseille",
+    "TYPE":"Association",
+    "LAT":43.2961743,
+    "LON":5.3699525
+  },
+  {
+    "REGION":"Guadeloupe",
+    "NOM":"Guadeloupetech",
+    "SITE WEB":"http:\/\/www.guadeloupetech.fr",
+    "ADRESSE":"Baie‑Mahault",
+    "TYPE":"Association",
+    "LAT":16.2679458,
+    "LON":-61.5870766
+  },
+  {
+    "REGION":"Guyane",
+    "NOM":"Les Premières De Guyane",
+    "SITE WEB":"lespremieresdeguyane.com",
+    "ADRESSE":"Saint‑Laurent Du Maroni",
+    "TYPE":"Association",
+    "LAT":3.9439621,
+    "LON":-53.7357694
+  },
+  {
+    "REGION":"La Réunion",
+    "NOM":"Girls In Tech Réunion",
+    "SITE WEB":"https:\/\/reunion.girlsintech.org\/blog\/",
+    "ADRESSE":"Sainte‑Clotilde",
+    "TYPE":"Association",
+    "LAT":45.1571128,
+    "LON":-73.6768108
+  },
+  {
+    "REGION":"Martinique",
+    "NOM":"Les Premières Martinique",
+    "SITE WEB":"https:\/\/www.helloasso.com\/associations\/les-premieres-martinique",
+    "ADRESSE":"Le Lamentin",
+    "TYPE":"Association",
+    "LAT":14.614557,
+    "LON":-61.0018145
+  },
+  {
+    "REGION":"Mayotte",
+    "NOM":"Mayotte In Tech",
+    "SITE WEB":"https:\/\/mayotteintech.yt\/a-propos-de-nous\/",
+    "ADRESSE":"Mamoudzou",
+    "TYPE":"Association",
+    "LAT":-12.7804136,
+    "LON":45.2279761
+  }
+]

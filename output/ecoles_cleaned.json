@@ -1,0 +1,1172 @@
+[
+  {
+    "ECOLES":null,
+    "TYPE_DE_FORMATION":null,
+    "SITE_WEB":null,
+    "LOCALISATION":null,
+    "REGION":null,
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Epitech Paris",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.epitech.eu",
+    "LOCALISATION":"Paris",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Epitech Lyon",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.epitech.eu",
+    "LOCALISATION":"Lyon",
+    "REGION":"Auvergne-Rhône-Alpes",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Epitech Toulouse",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.epitech.eu",
+    "LOCALISATION":"Toulouse",
+    "REGION":"Occitanie",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Epitech Marseille",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.epitech.eu",
+    "LOCALISATION":"Marseille",
+    "REGION":"Provence-Alpes-Côte D'Azur",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Epitech Lille",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.epitech.eu",
+    "LOCALISATION":"Lille",
+    "REGION":"Hauts-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Epitech Nantes",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.epitech.eu",
+    "LOCALISATION":"Nantes",
+    "REGION":"Pays De La Loire",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Epitech Bordeaux",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.epitech.eu",
+    "LOCALISATION":"Bordeaux",
+    "REGION":"Nouvelle-Aquitaine",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Epitech Rennes",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.epitech.eu",
+    "LOCALISATION":"Rennes",
+    "REGION":"Bretagne",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Epitech Nice",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.epitech.eu",
+    "LOCALISATION":"Nice",
+    "REGION":"Provence-Alpes-Côte D'Azur",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Supinfo Paris",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.supinfo.com",
+    "LOCALISATION":"Paris",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Supinfo Lille",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.supinfo.com",
+    "LOCALISATION":"Lille",
+    "REGION":"Hauts-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Supinfo Lyon",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.supinfo.com",
+    "LOCALISATION":"Lyon",
+    "REGION":"Auvergne-Rhône-Alpes",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Supinfo Nantes",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.supinfo.com",
+    "LOCALISATION":"Nantes",
+    "REGION":"Pays De La Loire",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Supinfo Montpellier",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.supinfo.com",
+    "LOCALISATION":"Montpellier",
+    "REGION":"Occitanie",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Supinfo Toulouse",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.supinfo.com",
+    "LOCALISATION":"Toulouse",
+    "REGION":"Occitanie",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Ynov Campus Paris",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.ynov.com",
+    "LOCALISATION":"Paris",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Ynov Campus Bordeaux",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.ynov.com",
+    "LOCALISATION":"Bordeaux",
+    "REGION":"Nouvelle-Aquitaine",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Ynov Campus Lyon",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.ynov.com",
+    "LOCALISATION":"Lyon",
+    "REGION":"Auvergne-Rhône-Alpes",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Ynov Campus Toulouse",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.ynov.com",
+    "LOCALISATION":"Toulouse",
+    "REGION":"Occitanie",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Ynov Campus Aix-En-Provence",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.ynov.com",
+    "LOCALISATION":"Aix-En-Provence",
+    "REGION":"Provence-Alpes-Côte D'Azur",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Ynov Campus Nantes",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.ynov.com",
+    "LOCALISATION":"Nantes",
+    "REGION":"Pays De La Loire",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Ynov Campus Nice",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.ynov.com",
+    "LOCALISATION":"Nice",
+    "REGION":"Provence-Alpes-Côte D'Azur",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Mydigitalschool Paris",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.mydigitalschool.com",
+    "LOCALISATION":"Paris",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Mydigitalschool Angers",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.mydigitalschool.com",
+    "LOCALISATION":"Angers",
+    "REGION":"Pays De La Loire",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Mydigitalschool Rennes",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.mydigitalschool.com",
+    "LOCALISATION":"Rennes",
+    "REGION":"Bretagne",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Mydigitalschool Lyon",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.mydigitalschool.com",
+    "LOCALISATION":"Lyon",
+    "REGION":"Auvergne-Rhône-Alpes",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Mydigitalschool Nantes",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.mydigitalschool.com",
+    "LOCALISATION":"Nantes",
+    "REGION":"Pays De La Loire",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Digital Campus Paris",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.digital-campus.com",
+    "LOCALISATION":"Paris",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Digital Campus Bordeaux",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.digital-campus.com",
+    "LOCALISATION":"Bordeaux",
+    "REGION":"Nouvelle-Aquitaine",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Digital Campus Rennes",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.digital-campus.com",
+    "LOCALISATION":"Rennes",
+    "REGION":"Bretagne",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Digital Campus Montpellier",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.digital-campus.com",
+    "LOCALISATION":"Montpellier",
+    "REGION":"Occitanie",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Digital Campus Toulouse",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.digital-campus.com",
+    "LOCALISATION":"Toulouse",
+    "REGION":"Occitanie",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Wild Code School Paris",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.wildcodeschool.com",
+    "LOCALISATION":"Paris Et Distanciel",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Wild Code School Lille",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.wildcodeschool.com",
+    "LOCALISATION":"Lille Et Distanciel",
+    "REGION":"Hauts-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Wild Code School Lyon",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.wildcodeschool.com",
+    "LOCALISATION":"Lyon Et Distanciel",
+    "REGION":"Auvergne-Rhône-Alpes",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Wild Code School Bordeaux",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.wildcodeschool.com",
+    "LOCALISATION":"Bordeaux Et Distanciel",
+    "REGION":"Nouvelle-Aquitaine",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Wild Code School Nantes",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.wildcodeschool.com",
+    "LOCALISATION":"Nantes Et Distanciel",
+    "REGION":"Pays De La Loire",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Wild Code School Toulouse",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.wildcodeschool.com",
+    "LOCALISATION":"Toulouse Et Distanciel",
+    "REGION":"Occitanie",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Wild Code School Marseille",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.wildcodeschool.com",
+    "LOCALISATION":"Marseille Et Distanciel",
+    "REGION":"Provence-Alpes-Côte D'Azur",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Simplon Saint-Denis",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.simplon.co",
+    "LOCALISATION":"Saint-Denis Et Distanciel",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Simplon Montreuil",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.simplon.co",
+    "LOCALISATION":"Montreuil Et Distanciel",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Simplon Lille",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.simplon.co",
+    "LOCALISATION":"Lille Et Distanciel",
+    "REGION":"Hauts-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Simplon Marseille",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.simplon.co",
+    "LOCALISATION":"Marseille Et Distanciel",
+    "REGION":"Provence-Alpes-Côte D'Azur",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Jedha Bootcamp Paris",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.jedha.co",
+    "LOCALISATION":"Paris Et Distanciel",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Jedha Bootcamp Lyon",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.jedha.co",
+    "LOCALISATION":"Lyon Et Distanciel",
+    "REGION":"Auvergne-Rhône-Alpes",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Jedha Bootcamp Lille",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.jedha.co",
+    "LOCALISATION":"Lille Et Distanciel",
+    "REGION":"Hauts-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Jedha Bootcamp Bordeaux",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.jedha.co",
+    "LOCALISATION":"Bordeaux Et Distanciel",
+    "REGION":"Nouvelle-Aquitaine",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"La Capsule Paris",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/lacapsule.io",
+    "LOCALISATION":"Paris",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"La Capsule Lyon",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/lacapsule.io",
+    "LOCALISATION":"Lyon",
+    "REGION":"Auvergne-Rhône-Alpes",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"La Capsule Marseille",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/lacapsule.io",
+    "LOCALISATION":"Marseille",
+    "REGION":"Provence-Alpes-Côte D'Azur",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Rocket School Paris",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/rocket-school.com",
+    "LOCALISATION":"Paris Et Distanciel",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Rocket School Marseille",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/rocket-school.com",
+    "LOCALISATION":"Marseille Et Distanciel",
+    "REGION":"Provence-Alpes-Côte D'Azur",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Rocket School Lyon",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/rocket-school.com",
+    "LOCALISATION":"Lyon Et Distanciel",
+    "REGION":"Auvergne-Rhône-Alpes",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Rocket School Lille",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/rocket-school.com",
+    "LOCALISATION":"Lille Et Distanciel",
+    "REGION":"Hauts-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Rocket School Bordeaux",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/rocket-school.com",
+    "LOCALISATION":"Bordeaux Et Distanciel",
+    "REGION":"Nouvelle-Aquitaine",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Rocket School Nantes",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/rocket-school.com",
+    "LOCALISATION":"Nantes Et Distanciel",
+    "REGION":"Pays De La Loire",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Eni École Informatique Nantes",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.eni-ecole.fr",
+    "LOCALISATION":"Nantes Et Distanciel",
+    "REGION":"Pays De La Loire",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Eni École Informatique Rennes",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.eni-ecole.fr",
+    "LOCALISATION":"Rennes Et Distanciel",
+    "REGION":"Bretagne",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Webforce3 Paris",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.webforce3.com",
+    "LOCALISATION":"Paris Et Distanciel",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Webforce3 Lyon",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.webforce3.com",
+    "LOCALISATION":"Lyon Et Distanciel",
+    "REGION":"Auvergne-Rhône-Alpes",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Webforce3 Lille",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.webforce3.com",
+    "LOCALISATION":"Lille Et Distanciel",
+    "REGION":"Hauts-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Webforce3 Bordeaux",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/www.webforce3.com",
+    "LOCALISATION":"Bordeaux Et Distanciel",
+    "REGION":"Nouvelle-Aquitaine",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Datascientest",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":"https:\/\/datascientest.com",
+    "LOCALISATION":"Distanciel",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']",
+    "METIERS":"['3D Computer Vision Researcher', 'AI Scientist', 'Analytics Engineer', 'Applied Data Scientist', 'Applied Machine Learning Scientist', 'BI Data Analyst', 'Big Data Architect', 'Big Data Engineer', 'Business Data Analyst', 'Cloud Architect', 'Cloud Data Engineer', 'Cloud Engineer', 'Computer Vision Engineer', 'Computer Vision Software Engineer', 'Data Analyst', 'Data Analytics Engineer', 'Data Analytics Lead', 'Data Analytics Manager', 'Data Architect', 'Data Engineer', 'Data Engineering Manager', 'Data Science Consultant', 'Data Science Engineer', 'Data Science Manager', 'Data Scientist', 'Data Specialist', 'Database Administrator', 'DevOps Engineer', 'Director of Data Engineering', 'Director of Data Science', 'ETL Developer', 'Finance Data Analyst', 'Financial Data Analyst', 'Head of Data', 'Head of Data Science', 'Head of Machine Learning', 'Ingénieur Cloud', 'Lead Data Analyst', 'Lead Data Engineer', 'Lead Data Scientist', 'Lead Machine Learning Engineer', 'ML Engineer', 'Machine Learning', 'Machine Learning Developer', 'Machine Learning Engineer', 'Machine Learning Infrastructure Engineer', 'Machine Learning Manager', 'Machine Learning Scientist', 'Marketing Data Analyst', 'Platform Engineer', 'Principal Data Analyst', 'Principal Data Engineer', 'Principal Data Scientist', 'Product Data Analyst', 'Site Reliability Engineer (SRE)', 'Staff Data Scientist']",
+    "CATEGORIES":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']"
+  },
+  {
+    "ECOLES":"Openclassrooms",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":"https:\/\/openclassrooms.com",
+    "LOCALISATION":"Distanciel",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']",
+    "METIERS":"['3D Computer Vision Researcher', 'AI Scientist', 'Analytics Engineer', 'Applied Data Scientist', 'Applied Machine Learning Scientist', 'BI Data Analyst', 'Big Data Architect', 'Big Data Engineer', 'Business Data Analyst', 'Cloud Architect', 'Cloud Data Engineer', 'Cloud Engineer', 'Computer Vision Engineer', 'Computer Vision Software Engineer', 'Data Analyst', 'Data Analytics Engineer', 'Data Analytics Lead', 'Data Analytics Manager', 'Data Architect', 'Data Engineer', 'Data Engineering Manager', 'Data Science Consultant', 'Data Science Engineer', 'Data Science Manager', 'Data Scientist', 'Data Specialist', 'Database Administrator', 'DevOps Engineer', 'Director of Data Engineering', 'Director of Data Science', 'ETL Developer', 'Finance Data Analyst', 'Financial Data Analyst', 'Head of Data', 'Head of Data Science', 'Head of Machine Learning', 'Ingénieur Cloud', 'Lead Data Analyst', 'Lead Data Engineer', 'Lead Data Scientist', 'Lead Machine Learning Engineer', 'ML Engineer', 'Machine Learning', 'Machine Learning Developer', 'Machine Learning Engineer', 'Machine Learning Infrastructure Engineer', 'Machine Learning Manager', 'Machine Learning Scientist', 'Marketing Data Analyst', 'Platform Engineer', 'Principal Data Analyst', 'Principal Data Engineer', 'Principal Data Scientist', 'Product Data Analyst', 'Site Reliability Engineer (SRE)', 'Staff Data Scientist']",
+    "CATEGORIES":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']"
+  },
+  {
+    "ECOLES":"O'Clock",
+    "TYPE_DE_FORMATION":"DEV",
+    "SITE_WEB":"https:\/\/oclock.io",
+    "LOCALISATION":"Distanciel",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Imt Atlantique Nantes",
+    "TYPE_DE_FORMATION":"Engineering",
+    "SITE_WEB":"https:\/\/imt-atlantique.fr",
+    "LOCALISATION":"Nantes",
+    "REGION":"Pays De La Loire",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Imt Atlantique Brest",
+    "TYPE_DE_FORMATION":"Engineering",
+    "SITE_WEB":"https:\/\/imt-atlantique.fr",
+    "LOCALISATION":"Brest",
+    "REGION":"Bretagne",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Télécom Paris",
+    "TYPE_DE_FORMATION":"Engineering",
+    "SITE_WEB":"https:\/\/www.telecom-paris.fr",
+    "LOCALISATION":"Palaiseau",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Télécom Sudparis",
+    "TYPE_DE_FORMATION":"Engineering",
+    "SITE_WEB":"https:\/\/www.telecom-sudparis.eu",
+    "LOCALISATION":"Evry",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Ensiie",
+    "TYPE_DE_FORMATION":"Engineering",
+    "SITE_WEB":"https:\/\/www.ensiie.fr",
+    "LOCALISATION":"Evry",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"École Polytechnique",
+    "TYPE_DE_FORMATION":"Engineering",
+    "SITE_WEB":"https:\/\/polytechnique.edu",
+    "LOCALISATION":"Palaiseau",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Centralesupélec",
+    "TYPE_DE_FORMATION":"Engineering",
+    "SITE_WEB":"https:\/\/www.centralesupelec.fr",
+    "LOCALISATION":"Gif-Sur-Yvette",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Esilv",
+    "TYPE_DE_FORMATION":"Engineering",
+    "SITE_WEB":"https:\/\/www.esilv.fr",
+    "LOCALISATION":"Paris",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Iim Digital School",
+    "TYPE_DE_FORMATION":"Engineering",
+    "SITE_WEB":"https:\/\/www.iim.fr",
+    "LOCALISATION":"Paris",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Ensai",
+    "TYPE_DE_FORMATION":"Engineering",
+    "SITE_WEB":"https:\/\/www.ensai.fr",
+    "LOCALISATION":"Rennes",
+    "REGION":"Bretagne",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Ensae Paris",
+    "TYPE_DE_FORMATION":"Engineering",
+    "SITE_WEB":"https:\/\/www.ensae.fr",
+    "LOCALISATION":"Palaiseau",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Université Paris Dauphine",
+    "TYPE_DE_FORMATION":"University",
+    "SITE_WEB":"https:\/\/dauphine.psl.eu",
+    "LOCALISATION":"Paris",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Université Gustave Eiffel",
+    "TYPE_DE_FORMATION":"University",
+    "SITE_WEB":"https:\/\/www.univ-gustave-eiffel.fr",
+    "LOCALISATION":"Paris",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Sorbonne Université",
+    "TYPE_DE_FORMATION":"University",
+    "SITE_WEB":"https:\/\/www.sorbonne-universite.fr",
+    "LOCALISATION":"Paris",
+    "REGION":"Île-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Université De Bordeaux",
+    "TYPE_DE_FORMATION":"University",
+    "SITE_WEB":"https:\/\/www.u-bordeaux.fr",
+    "LOCALISATION":"Bordeaux",
+    "REGION":"Nouvelle-Aquitaine",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Université Toulouse Iii - Paul Sabatier",
+    "TYPE_DE_FORMATION":"University",
+    "SITE_WEB":"https:\/\/www.univ-tlse3.fr",
+    "LOCALISATION":"Toulouse",
+    "REGION":"Occitanie",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Université De Lille",
+    "TYPE_DE_FORMATION":"University",
+    "SITE_WEB":"https:\/\/www.univ-lille.fr",
+    "LOCALISATION":"Lille",
+    "REGION":"Hauts-De-France",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Université Grenoble Alpes",
+    "TYPE_DE_FORMATION":"University",
+    "SITE_WEB":"https:\/\/www.univ-grenoble-alpes.fr",
+    "LOCALISATION":"Grenoble",
+    "REGION":"Auvergne-Rhône-Alpes",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Université Claude Bernard Lyon 1",
+    "TYPE_DE_FORMATION":"University",
+    "SITE_WEB":"https:\/\/www.univ-lyon1.fr",
+    "LOCALISATION":"Lyon",
+    "REGION":"Auvergne-Rhône-Alpes",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Insa Lyon",
+    "TYPE_DE_FORMATION":"Engineering",
+    "SITE_WEB":"https:\/\/www.insa-lyon.fr",
+    "LOCALISATION":"Lyon",
+    "REGION":"Auvergne-Rhône-Alpes",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Insa Toulouse",
+    "TYPE_DE_FORMATION":"Engineering",
+    "SITE_WEB":"https:\/\/www.insa-toulouse.fr",
+    "LOCALISATION":"Toulouse",
+    "REGION":"Occitanie",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Insa Rennes",
+    "TYPE_DE_FORMATION":"Engineering",
+    "SITE_WEB":"https:\/\/www.insa-rennes.fr",
+    "LOCALISATION":"Rennes",
+    "REGION":"Bretagne",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Insa Strasbourg",
+    "TYPE_DE_FORMATION":"Engineering",
+    "SITE_WEB":"https:\/\/www.insa-strasbourg.fr",
+    "LOCALISATION":"Strasbourg",
+    "REGION":"Grand Est",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Insa Centre Val De Loire",
+    "TYPE_DE_FORMATION":"Engineering",
+    "SITE_WEB":"https:\/\/www.insa-centrevaldeloire.fr",
+    "LOCALISATION":"Bourges",
+    "REGION":"Centre-Val De Loire",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Polytech Nantes",
+    "TYPE_DE_FORMATION":"Engineering",
+    "SITE_WEB":"https:\/\/www.polytech-nantes.fr",
+    "LOCALISATION":"Nantes",
+    "REGION":"Pays De La Loire",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Polytech Marseille",
+    "TYPE_DE_FORMATION":"Engineering",
+    "SITE_WEB":"https:\/\/polytech.univ-amu.fr",
+    "LOCALISATION":"Marseille",
+    "REGION":"Provence-Alpes-Côte D'Azur",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Université De Montpellier",
+    "TYPE_DE_FORMATION":"University",
+    "SITE_WEB":"https:\/\/www.umontpellier.fr",
+    "LOCALISATION":"Montpellier",
+    "REGION":"Occitanie",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Université De Nantes",
+    "TYPE_DE_FORMATION":"University",
+    "SITE_WEB":"https:\/\/www.univ-nantes.fr",
+    "LOCALISATION":"Nantes",
+    "REGION":"Pays De La Loire",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Université De Strasbourg",
+    "TYPE_DE_FORMATION":"University",
+    "SITE_WEB":"https:\/\/www.unistra.fr",
+    "LOCALISATION":"Strasbourg",
+    "REGION":"Grand Est",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Université De La Réunion",
+    "TYPE_DE_FORMATION":"University",
+    "SITE_WEB":"https:\/\/www.univ-reunion.fr",
+    "LOCALISATION":"Saint-Denis De La Réunion",
+    "REGION":"La Réunion",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Université Des Antilles",
+    "TYPE_DE_FORMATION":"University",
+    "SITE_WEB":"https:\/\/www.univ-antilles.fr",
+    "LOCALISATION":"Fort-De-France",
+    "REGION":"Martinique",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Université De Guyane",
+    "TYPE_DE_FORMATION":"University",
+    "SITE_WEB":"https:\/\/www.univ-guyane.fr",
+    "LOCALISATION":"Cayenne",
+    "REGION":"Guyane",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Université De Nouvelle-Calédonie",
+    "TYPE_DE_FORMATION":"University",
+    "SITE_WEB":"https:\/\/www.univ-nc.nc",
+    "LOCALISATION":"Nouméa",
+    "REGION":"Nouvelle-Calédonie",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Université De Polynésie Française",
+    "TYPE_DE_FORMATION":"University",
+    "SITE_WEB":"https:\/\/www.upf.pf",
+    "LOCALISATION":"Papeete",
+    "REGION":"Polynésie Française",
+    "APPRENTISSAGE":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle', 'Data & IA', 'Développement Mobile']",
+    "METIERS":"['Android Developer', 'Backend Developer', 'Cloud Architect', 'Cloud Engineer', 'Cybersecurity Analyst', 'DevOps Engineer', 'Django Developer', 'Développeur Frontend', 'ETL Developer', 'Ethical Hacker \/ Pentester', 'Expert Cybersécurité', 'Flutter Developer', 'Frontend Developer', 'Full Stack Developer', 'Ingénieur Cloud', 'Java Developer', 'JavaScript Developer', 'NLP Engineer', 'Network Administrator', 'Node js developer', 'PHP Developer', 'Platform Engineer', 'React Native Developer', 'Research Scientist', 'Ruby on Rails Developer', 'Security Engineer', 'Site Reliability Engineer (SRE)', 'Software Engineer', 'WordPress Developer', 'Wordpress Developer', 'iOS Developer']",
+    "CATEGORIES":"['Base de données \/ BI', 'Cybersécurité', 'DevOps \/ Cloud', 'Développement Web', 'Développement Mobile', 'Infrastructure \/ Réseau', 'Ingénierie Logicielle']"
+  },
+  {
+    "ECOLES":"Ia School Paris",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":"https:\/\/ia.school",
+    "LOCALISATION":"Paris",
+    "REGION":"Nc",
+    "APPRENTISSAGE":null,
+    "METIERS":"['3D Computer Vision Researcher', 'AI Scientist', 'Analytics Engineer', 'Applied Data Scientist', 'Applied Machine Learning Scientist', 'BI Data Analyst', 'Big Data Architect', 'Big Data Engineer', 'Business Data Analyst', 'Cloud Architect', 'Cloud Data Engineer', 'Cloud Engineer', 'Computer Vision Engineer', 'Computer Vision Software Engineer', 'Data Analyst', 'Data Analytics Engineer', 'Data Analytics Lead', 'Data Analytics Manager', 'Data Architect', 'Data Engineer', 'Data Engineering Manager', 'Data Science Consultant', 'Data Science Engineer', 'Data Science Manager', 'Data Scientist', 'Data Specialist', 'Database Administrator', 'DevOps Engineer', 'Director of Data Engineering', 'Director of Data Science', 'ETL Developer', 'Finance Data Analyst', 'Financial Data Analyst', 'Head of Data', 'Head of Data Science', 'Head of Machine Learning', 'Ingénieur Cloud', 'Lead Data Analyst', 'Lead Data Engineer', 'Lead Data Scientist', 'Lead Machine Learning Engineer', 'ML Engineer', 'Machine Learning', 'Machine Learning Developer', 'Machine Learning Engineer', 'Machine Learning Infrastructure Engineer', 'Machine Learning Manager', 'Machine Learning Scientist', 'Marketing Data Analyst', 'Platform Engineer', 'Principal Data Analyst', 'Principal Data Engineer', 'Principal Data Scientist', 'Product Data Analyst', 'Site Reliability Engineer (SRE)', 'Staff Data Scientist']",
+    "CATEGORIES":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']"
+  },
+  {
+    "ECOLES":"Ia School Lyon",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":"https:\/\/ia.school",
+    "LOCALISATION":"Lyon",
+    "REGION":"Nc",
+    "APPRENTISSAGE":null,
+    "METIERS":"['3D Computer Vision Researcher', 'AI Scientist', 'Analytics Engineer', 'Applied Data Scientist', 'Applied Machine Learning Scientist', 'BI Data Analyst', 'Big Data Architect', 'Big Data Engineer', 'Business Data Analyst', 'Cloud Architect', 'Cloud Data Engineer', 'Cloud Engineer', 'Computer Vision Engineer', 'Computer Vision Software Engineer', 'Data Analyst', 'Data Analytics Engineer', 'Data Analytics Lead', 'Data Analytics Manager', 'Data Architect', 'Data Engineer', 'Data Engineering Manager', 'Data Science Consultant', 'Data Science Engineer', 'Data Science Manager', 'Data Scientist', 'Data Specialist', 'Database Administrator', 'DevOps Engineer', 'Director of Data Engineering', 'Director of Data Science', 'ETL Developer', 'Finance Data Analyst', 'Financial Data Analyst', 'Head of Data', 'Head of Data Science', 'Head of Machine Learning', 'Ingénieur Cloud', 'Lead Data Analyst', 'Lead Data Engineer', 'Lead Data Scientist', 'Lead Machine Learning Engineer', 'ML Engineer', 'Machine Learning', 'Machine Learning Developer', 'Machine Learning Engineer', 'Machine Learning Infrastructure Engineer', 'Machine Learning Manager', 'Machine Learning Scientist', 'Marketing Data Analyst', 'Platform Engineer', 'Principal Data Analyst', 'Principal Data Engineer', 'Principal Data Scientist', 'Product Data Analyst', 'Site Reliability Engineer (SRE)', 'Staff Data Scientist']",
+    "CATEGORIES":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']"
+  },
+  {
+    "ECOLES":"Ia School Toulouse",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":"https:\/\/ia.school",
+    "LOCALISATION":"Toulouse",
+    "REGION":"Nc",
+    "APPRENTISSAGE":null,
+    "METIERS":"['3D Computer Vision Researcher', 'AI Scientist', 'Analytics Engineer', 'Applied Data Scientist', 'Applied Machine Learning Scientist', 'BI Data Analyst', 'Big Data Architect', 'Big Data Engineer', 'Business Data Analyst', 'Cloud Architect', 'Cloud Data Engineer', 'Cloud Engineer', 'Computer Vision Engineer', 'Computer Vision Software Engineer', 'Data Analyst', 'Data Analytics Engineer', 'Data Analytics Lead', 'Data Analytics Manager', 'Data Architect', 'Data Engineer', 'Data Engineering Manager', 'Data Science Consultant', 'Data Science Engineer', 'Data Science Manager', 'Data Scientist', 'Data Specialist', 'Database Administrator', 'DevOps Engineer', 'Director of Data Engineering', 'Director of Data Science', 'ETL Developer', 'Finance Data Analyst', 'Financial Data Analyst', 'Head of Data', 'Head of Data Science', 'Head of Machine Learning', 'Ingénieur Cloud', 'Lead Data Analyst', 'Lead Data Engineer', 'Lead Data Scientist', 'Lead Machine Learning Engineer', 'ML Engineer', 'Machine Learning', 'Machine Learning Developer', 'Machine Learning Engineer', 'Machine Learning Infrastructure Engineer', 'Machine Learning Manager', 'Machine Learning Scientist', 'Marketing Data Analyst', 'Platform Engineer', 'Principal Data Analyst', 'Principal Data Engineer', 'Principal Data Scientist', 'Product Data Analyst', 'Site Reliability Engineer (SRE)', 'Staff Data Scientist']",
+    "CATEGORIES":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']"
+  },
+  {
+    "ECOLES":"Le Wagon Data Paris",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":"https:\/\/www.lewagon.com\/data-science-course",
+    "LOCALISATION":"Paris Et Distanciel",
+    "REGION":"Nc",
+    "APPRENTISSAGE":null,
+    "METIERS":"['3D Computer Vision Researcher', 'AI Scientist', 'Analytics Engineer', 'Applied Data Scientist', 'Applied Machine Learning Scientist', 'BI Data Analyst', 'Big Data Architect', 'Big Data Engineer', 'Business Data Analyst', 'Cloud Architect', 'Cloud Data Engineer', 'Cloud Engineer', 'Computer Vision Engineer', 'Computer Vision Software Engineer', 'Data Analyst', 'Data Analytics Engineer', 'Data Analytics Lead', 'Data Analytics Manager', 'Data Architect', 'Data Engineer', 'Data Engineering Manager', 'Data Science Consultant', 'Data Science Engineer', 'Data Science Manager', 'Data Scientist', 'Data Specialist', 'Database Administrator', 'DevOps Engineer', 'Director of Data Engineering', 'Director of Data Science', 'ETL Developer', 'Finance Data Analyst', 'Financial Data Analyst', 'Head of Data', 'Head of Data Science', 'Head of Machine Learning', 'Ingénieur Cloud', 'Lead Data Analyst', 'Lead Data Engineer', 'Lead Data Scientist', 'Lead Machine Learning Engineer', 'ML Engineer', 'Machine Learning', 'Machine Learning Developer', 'Machine Learning Engineer', 'Machine Learning Infrastructure Engineer', 'Machine Learning Manager', 'Machine Learning Scientist', 'Marketing Data Analyst', 'Platform Engineer', 'Principal Data Analyst', 'Principal Data Engineer', 'Principal Data Scientist', 'Product Data Analyst', 'Site Reliability Engineer (SRE)', 'Staff Data Scientist']",
+    "CATEGORIES":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']"
+  },
+  {
+    "ECOLES":"Jedha Data Fullstack (Remote)",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":"https:\/\/www.jedha.co",
+    "LOCALISATION":"Distanciel",
+    "REGION":"Nc",
+    "APPRENTISSAGE":null,
+    "METIERS":"['3D Computer Vision Researcher', 'AI Scientist', 'Analytics Engineer', 'Applied Data Scientist', 'Applied Machine Learning Scientist', 'BI Data Analyst', 'Big Data Architect', 'Big Data Engineer', 'Business Data Analyst', 'Cloud Architect', 'Cloud Data Engineer', 'Cloud Engineer', 'Computer Vision Engineer', 'Computer Vision Software Engineer', 'Data Analyst', 'Data Analytics Engineer', 'Data Analytics Lead', 'Data Analytics Manager', 'Data Architect', 'Data Engineer', 'Data Engineering Manager', 'Data Science Consultant', 'Data Science Engineer', 'Data Science Manager', 'Data Scientist', 'Data Specialist', 'Database Administrator', 'DevOps Engineer', 'Director of Data Engineering', 'Director of Data Science', 'ETL Developer', 'Finance Data Analyst', 'Financial Data Analyst', 'Head of Data', 'Head of Data Science', 'Head of Machine Learning', 'Ingénieur Cloud', 'Lead Data Analyst', 'Lead Data Engineer', 'Lead Data Scientist', 'Lead Machine Learning Engineer', 'ML Engineer', 'Machine Learning', 'Machine Learning Developer', 'Machine Learning Engineer', 'Machine Learning Infrastructure Engineer', 'Machine Learning Manager', 'Machine Learning Scientist', 'Marketing Data Analyst', 'Platform Engineer', 'Principal Data Analyst', 'Principal Data Engineer', 'Principal Data Scientist', 'Product Data Analyst', 'Site Reliability Engineer (SRE)', 'Staff Data Scientist']",
+    "CATEGORIES":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']"
+  },
+  {
+    "ECOLES":"Databird Paris",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":"https:\/\/databird.fr",
+    "LOCALISATION":"Paris",
+    "REGION":"Nc",
+    "APPRENTISSAGE":null,
+    "METIERS":"['3D Computer Vision Researcher', 'AI Scientist', 'Analytics Engineer', 'Applied Data Scientist', 'Applied Machine Learning Scientist', 'BI Data Analyst', 'Big Data Architect', 'Big Data Engineer', 'Business Data Analyst', 'Cloud Architect', 'Cloud Data Engineer', 'Cloud Engineer', 'Computer Vision Engineer', 'Computer Vision Software Engineer', 'Data Analyst', 'Data Analytics Engineer', 'Data Analytics Lead', 'Data Analytics Manager', 'Data Architect', 'Data Engineer', 'Data Engineering Manager', 'Data Science Consultant', 'Data Science Engineer', 'Data Science Manager', 'Data Scientist', 'Data Specialist', 'Database Administrator', 'DevOps Engineer', 'Director of Data Engineering', 'Director of Data Science', 'ETL Developer', 'Finance Data Analyst', 'Financial Data Analyst', 'Head of Data', 'Head of Data Science', 'Head of Machine Learning', 'Ingénieur Cloud', 'Lead Data Analyst', 'Lead Data Engineer', 'Lead Data Scientist', 'Lead Machine Learning Engineer', 'ML Engineer', 'Machine Learning', 'Machine Learning Developer', 'Machine Learning Engineer', 'Machine Learning Infrastructure Engineer', 'Machine Learning Manager', 'Machine Learning Scientist', 'Marketing Data Analyst', 'Platform Engineer', 'Principal Data Analyst', 'Principal Data Engineer', 'Principal Data Scientist', 'Product Data Analyst', 'Site Reliability Engineer (SRE)', 'Staff Data Scientist']",
+    "CATEGORIES":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']"
+  },
+  {
+    "ECOLES":"Databird (Remote)",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":"https:\/\/databird.fr",
+    "LOCALISATION":"Distanciel",
+    "REGION":"Nc",
+    "APPRENTISSAGE":null,
+    "METIERS":"['3D Computer Vision Researcher', 'AI Scientist', 'Analytics Engineer', 'Applied Data Scientist', 'Applied Machine Learning Scientist', 'BI Data Analyst', 'Big Data Architect', 'Big Data Engineer', 'Business Data Analyst', 'Cloud Architect', 'Cloud Data Engineer', 'Cloud Engineer', 'Computer Vision Engineer', 'Computer Vision Software Engineer', 'Data Analyst', 'Data Analytics Engineer', 'Data Analytics Lead', 'Data Analytics Manager', 'Data Architect', 'Data Engineer', 'Data Engineering Manager', 'Data Science Consultant', 'Data Science Engineer', 'Data Science Manager', 'Data Scientist', 'Data Specialist', 'Database Administrator', 'DevOps Engineer', 'Director of Data Engineering', 'Director of Data Science', 'ETL Developer', 'Finance Data Analyst', 'Financial Data Analyst', 'Head of Data', 'Head of Data Science', 'Head of Machine Learning', 'Ingénieur Cloud', 'Lead Data Analyst', 'Lead Data Engineer', 'Lead Data Scientist', 'Lead Machine Learning Engineer', 'ML Engineer', 'Machine Learning', 'Machine Learning Developer', 'Machine Learning Engineer', 'Machine Learning Infrastructure Engineer', 'Machine Learning Manager', 'Machine Learning Scientist', 'Marketing Data Analyst', 'Platform Engineer', 'Principal Data Analyst', 'Principal Data Engineer', 'Principal Data Scientist', 'Product Data Analyst', 'Site Reliability Engineer (SRE)', 'Staff Data Scientist']",
+    "CATEGORIES":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']"
+  },
+  {
+    "ECOLES":"Dsti Paris",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":"https:\/\/dsti.fr",
+    "LOCALISATION":"Paris",
+    "REGION":"Nc",
+    "APPRENTISSAGE":null,
+    "METIERS":"['3D Computer Vision Researcher', 'AI Scientist', 'Analytics Engineer', 'Applied Data Scientist', 'Applied Machine Learning Scientist', 'BI Data Analyst', 'Big Data Architect', 'Big Data Engineer', 'Business Data Analyst', 'Cloud Architect', 'Cloud Data Engineer', 'Cloud Engineer', 'Computer Vision Engineer', 'Computer Vision Software Engineer', 'Data Analyst', 'Data Analytics Engineer', 'Data Analytics Lead', 'Data Analytics Manager', 'Data Architect', 'Data Engineer', 'Data Engineering Manager', 'Data Science Consultant', 'Data Science Engineer', 'Data Science Manager', 'Data Scientist', 'Data Specialist', 'Database Administrator', 'DevOps Engineer', 'Director of Data Engineering', 'Director of Data Science', 'ETL Developer', 'Finance Data Analyst', 'Financial Data Analyst', 'Head of Data', 'Head of Data Science', 'Head of Machine Learning', 'Ingénieur Cloud', 'Lead Data Analyst', 'Lead Data Engineer', 'Lead Data Scientist', 'Lead Machine Learning Engineer', 'ML Engineer', 'Machine Learning', 'Machine Learning Developer', 'Machine Learning Engineer', 'Machine Learning Infrastructure Engineer', 'Machine Learning Manager', 'Machine Learning Scientist', 'Marketing Data Analyst', 'Platform Engineer', 'Principal Data Analyst', 'Principal Data Engineer', 'Principal Data Scientist', 'Product Data Analyst', 'Site Reliability Engineer (SRE)', 'Staff Data Scientist']",
+    "CATEGORIES":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']"
+  },
+  {
+    "ECOLES":"Dsti Sophia Antipolis",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":"https:\/\/dsti.fr",
+    "LOCALISATION":"Nice",
+    "REGION":"Nc",
+    "APPRENTISSAGE":null,
+    "METIERS":"['3D Computer Vision Researcher', 'AI Scientist', 'Analytics Engineer', 'Applied Data Scientist', 'Applied Machine Learning Scientist', 'BI Data Analyst', 'Big Data Architect', 'Big Data Engineer', 'Business Data Analyst', 'Cloud Architect', 'Cloud Data Engineer', 'Cloud Engineer', 'Computer Vision Engineer', 'Computer Vision Software Engineer', 'Data Analyst', 'Data Analytics Engineer', 'Data Analytics Lead', 'Data Analytics Manager', 'Data Architect', 'Data Engineer', 'Data Engineering Manager', 'Data Science Consultant', 'Data Science Engineer', 'Data Science Manager', 'Data Scientist', 'Data Specialist', 'Database Administrator', 'DevOps Engineer', 'Director of Data Engineering', 'Director of Data Science', 'ETL Developer', 'Finance Data Analyst', 'Financial Data Analyst', 'Head of Data', 'Head of Data Science', 'Head of Machine Learning', 'Ingénieur Cloud', 'Lead Data Analyst', 'Lead Data Engineer', 'Lead Data Scientist', 'Lead Machine Learning Engineer', 'ML Engineer', 'Machine Learning', 'Machine Learning Developer', 'Machine Learning Engineer', 'Machine Learning Infrastructure Engineer', 'Machine Learning Manager', 'Machine Learning Scientist', 'Marketing Data Analyst', 'Platform Engineer', 'Principal Data Analyst', 'Principal Data Engineer', 'Principal Data Scientist', 'Product Data Analyst', 'Site Reliability Engineer (SRE)', 'Staff Data Scientist']",
+    "CATEGORIES":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']"
+  },
+  {
+    "ECOLES":"Epita Data & Ia",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":"https:\/\/www.epita.fr",
+    "LOCALISATION":"Paris",
+    "REGION":"Nc",
+    "APPRENTISSAGE":null,
+    "METIERS":"['3D Computer Vision Researcher', 'AI Scientist', 'Analytics Engineer', 'Applied Data Scientist', 'Applied Machine Learning Scientist', 'BI Data Analyst', 'Big Data Architect', 'Big Data Engineer', 'Business Data Analyst', 'Cloud Architect', 'Cloud Data Engineer', 'Cloud Engineer', 'Computer Vision Engineer', 'Computer Vision Software Engineer', 'Data Analyst', 'Data Analytics Engineer', 'Data Analytics Lead', 'Data Analytics Manager', 'Data Architect', 'Data Engineer', 'Data Engineering Manager', 'Data Science Consultant', 'Data Science Engineer', 'Data Science Manager', 'Data Scientist', 'Data Specialist', 'Database Administrator', 'DevOps Engineer', 'Director of Data Engineering', 'Director of Data Science', 'ETL Developer', 'Finance Data Analyst', 'Financial Data Analyst', 'Head of Data', 'Head of Data Science', 'Head of Machine Learning', 'Ingénieur Cloud', 'Lead Data Analyst', 'Lead Data Engineer', 'Lead Data Scientist', 'Lead Machine Learning Engineer', 'ML Engineer', 'Machine Learning', 'Machine Learning Developer', 'Machine Learning Engineer', 'Machine Learning Infrastructure Engineer', 'Machine Learning Manager', 'Machine Learning Scientist', 'Marketing Data Analyst', 'Platform Engineer', 'Principal Data Analyst', 'Principal Data Engineer', 'Principal Data Scientist', 'Product Data Analyst', 'Site Reliability Engineer (SRE)', 'Staff Data Scientist']",
+    "CATEGORIES":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']"
+  },
+  {
+    "ECOLES":"Ecole Ia Microsoft By Simplon",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":"https:\/\/simplon.co",
+    "LOCALISATION":"Saint-Denis",
+    "REGION":"Nc",
+    "APPRENTISSAGE":null,
+    "METIERS":"['3D Computer Vision Researcher', 'AI Scientist', 'Analytics Engineer', 'Applied Data Scientist', 'Applied Machine Learning Scientist', 'BI Data Analyst', 'Big Data Architect', 'Big Data Engineer', 'Business Data Analyst', 'Cloud Architect', 'Cloud Data Engineer', 'Cloud Engineer', 'Computer Vision Engineer', 'Computer Vision Software Engineer', 'Data Analyst', 'Data Analytics Engineer', 'Data Analytics Lead', 'Data Analytics Manager', 'Data Architect', 'Data Engineer', 'Data Engineering Manager', 'Data Science Consultant', 'Data Science Engineer', 'Data Science Manager', 'Data Scientist', 'Data Specialist', 'Database Administrator', 'DevOps Engineer', 'Director of Data Engineering', 'Director of Data Science', 'ETL Developer', 'Finance Data Analyst', 'Financial Data Analyst', 'Head of Data', 'Head of Data Science', 'Head of Machine Learning', 'Ingénieur Cloud', 'Lead Data Analyst', 'Lead Data Engineer', 'Lead Data Scientist', 'Lead Machine Learning Engineer', 'ML Engineer', 'Machine Learning', 'Machine Learning Developer', 'Machine Learning Engineer', 'Machine Learning Infrastructure Engineer', 'Machine Learning Manager', 'Machine Learning Scientist', 'Marketing Data Analyst', 'Platform Engineer', 'Principal Data Analyst', 'Principal Data Engineer', 'Principal Data Scientist', 'Product Data Analyst', 'Site Reliability Engineer (SRE)', 'Staff Data Scientist']",
+    "CATEGORIES":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']"
+  },
+  {
+    "ECOLES":"Cefim Data School",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":"https:\/\/www.cefim.eu",
+    "LOCALISATION":"Tours",
+    "REGION":"Nc",
+    "APPRENTISSAGE":null,
+    "METIERS":"['3D Computer Vision Researcher', 'AI Scientist', 'Analytics Engineer', 'Applied Data Scientist', 'Applied Machine Learning Scientist', 'BI Data Analyst', 'Big Data Architect', 'Big Data Engineer', 'Business Data Analyst', 'Cloud Architect', 'Cloud Data Engineer', 'Cloud Engineer', 'Computer Vision Engineer', 'Computer Vision Software Engineer', 'Data Analyst', 'Data Analytics Engineer', 'Data Analytics Lead', 'Data Analytics Manager', 'Data Architect', 'Data Engineer', 'Data Engineering Manager', 'Data Science Consultant', 'Data Science Engineer', 'Data Science Manager', 'Data Scientist', 'Data Specialist', 'Database Administrator', 'DevOps Engineer', 'Director of Data Engineering', 'Director of Data Science', 'ETL Developer', 'Finance Data Analyst', 'Financial Data Analyst', 'Head of Data', 'Head of Data Science', 'Head of Machine Learning', 'Ingénieur Cloud', 'Lead Data Analyst', 'Lead Data Engineer', 'Lead Data Scientist', 'Lead Machine Learning Engineer', 'ML Engineer', 'Machine Learning', 'Machine Learning Developer', 'Machine Learning Engineer', 'Machine Learning Infrastructure Engineer', 'Machine Learning Manager', 'Machine Learning Scientist', 'Marketing Data Analyst', 'Platform Engineer', 'Principal Data Analyst', 'Principal Data Engineer', 'Principal Data Scientist', 'Product Data Analyst', 'Site Reliability Engineer (SRE)', 'Staff Data Scientist']",
+    "CATEGORIES":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']"
+  },
+  {
+    "ECOLES":"Mydataschool Bordeaux",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":"https:\/\/mydataschool.fr",
+    "LOCALISATION":"Bordeaux",
+    "REGION":"Nc",
+    "APPRENTISSAGE":null,
+    "METIERS":"['3D Computer Vision Researcher', 'AI Scientist', 'Analytics Engineer', 'Applied Data Scientist', 'Applied Machine Learning Scientist', 'BI Data Analyst', 'Big Data Architect', 'Big Data Engineer', 'Business Data Analyst', 'Cloud Architect', 'Cloud Data Engineer', 'Cloud Engineer', 'Computer Vision Engineer', 'Computer Vision Software Engineer', 'Data Analyst', 'Data Analytics Engineer', 'Data Analytics Lead', 'Data Analytics Manager', 'Data Architect', 'Data Engineer', 'Data Engineering Manager', 'Data Science Consultant', 'Data Science Engineer', 'Data Science Manager', 'Data Scientist', 'Data Specialist', 'Database Administrator', 'DevOps Engineer', 'Director of Data Engineering', 'Director of Data Science', 'ETL Developer', 'Finance Data Analyst', 'Financial Data Analyst', 'Head of Data', 'Head of Data Science', 'Head of Machine Learning', 'Ingénieur Cloud', 'Lead Data Analyst', 'Lead Data Engineer', 'Lead Data Scientist', 'Lead Machine Learning Engineer', 'ML Engineer', 'Machine Learning', 'Machine Learning Developer', 'Machine Learning Engineer', 'Machine Learning Infrastructure Engineer', 'Machine Learning Manager', 'Machine Learning Scientist', 'Marketing Data Analyst', 'Platform Engineer', 'Principal Data Analyst', 'Principal Data Engineer', 'Principal Data Scientist', 'Product Data Analyst', 'Site Reliability Engineer (SRE)', 'Staff Data Scientist']",
+    "CATEGORIES":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']"
+  },
+  {
+    "ECOLES":"Université Paris-Saclay (Msc Data Science)",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":"https:\/\/www.universite-paris-saclay.fr",
+    "LOCALISATION":"Paris",
+    "REGION":"Nc",
+    "APPRENTISSAGE":null,
+    "METIERS":"['3D Computer Vision Researcher', 'AI Scientist', 'Analytics Engineer', 'Applied Data Scientist', 'Applied Machine Learning Scientist', 'BI Data Analyst', 'Big Data Architect', 'Big Data Engineer', 'Business Data Analyst', 'Cloud Architect', 'Cloud Data Engineer', 'Cloud Engineer', 'Computer Vision Engineer', 'Computer Vision Software Engineer', 'Data Analyst', 'Data Analytics Engineer', 'Data Analytics Lead', 'Data Analytics Manager', 'Data Architect', 'Data Engineer', 'Data Engineering Manager', 'Data Science Consultant', 'Data Science Engineer', 'Data Science Manager', 'Data Scientist', 'Data Specialist', 'Database Administrator', 'DevOps Engineer', 'Director of Data Engineering', 'Director of Data Science', 'ETL Developer', 'Finance Data Analyst', 'Financial Data Analyst', 'Head of Data', 'Head of Data Science', 'Head of Machine Learning', 'Ingénieur Cloud', 'Lead Data Analyst', 'Lead Data Engineer', 'Lead Data Scientist', 'Lead Machine Learning Engineer', 'ML Engineer', 'Machine Learning', 'Machine Learning Developer', 'Machine Learning Engineer', 'Machine Learning Infrastructure Engineer', 'Machine Learning Manager', 'Machine Learning Scientist', 'Marketing Data Analyst', 'Platform Engineer', 'Principal Data Analyst', 'Principal Data Engineer', 'Principal Data Scientist', 'Product Data Analyst', 'Site Reliability Engineer (SRE)', 'Staff Data Scientist']",
+    "CATEGORIES":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']"
+  },
+  {
+    "ECOLES":"Université Côte D'Azur Msc Data Science",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":"https:\/\/univ-cotedazur.eu",
+    "LOCALISATION":"Nice",
+    "REGION":"Haut De France",
+    "APPRENTISSAGE":null,
+    "METIERS":"['3D Computer Vision Researcher', 'AI Scientist', 'Analytics Engineer', 'Applied Data Scientist', 'Applied Machine Learning Scientist', 'BI Data Analyst', 'Big Data Architect', 'Big Data Engineer', 'Business Data Analyst', 'Cloud Architect', 'Cloud Data Engineer', 'Cloud Engineer', 'Computer Vision Engineer', 'Computer Vision Software Engineer', 'Data Analyst', 'Data Analytics Engineer', 'Data Analytics Lead', 'Data Analytics Manager', 'Data Architect', 'Data Engineer', 'Data Engineering Manager', 'Data Science Consultant', 'Data Science Engineer', 'Data Science Manager', 'Data Scientist', 'Data Specialist', 'Database Administrator', 'DevOps Engineer', 'Director of Data Engineering', 'Director of Data Science', 'ETL Developer', 'Finance Data Analyst', 'Financial Data Analyst', 'Head of Data', 'Head of Data Science', 'Head of Machine Learning', 'Ingénieur Cloud', 'Lead Data Analyst', 'Lead Data Engineer', 'Lead Data Scientist', 'Lead Machine Learning Engineer', 'ML Engineer', 'Machine Learning', 'Machine Learning Developer', 'Machine Learning Engineer', 'Machine Learning Infrastructure Engineer', 'Machine Learning Manager', 'Machine Learning Scientist', 'Marketing Data Analyst', 'Platform Engineer', 'Principal Data Analyst', 'Principal Data Engineer', 'Principal Data Scientist', 'Product Data Analyst', 'Site Reliability Engineer (SRE)', 'Staff Data Scientist']",
+    "CATEGORIES":"['Data & IA', 'Base de données \/ BI', 'DevOps \/ Cloud']"
+  },
+  {
+    "ECOLES":"Simplon",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":null,
+    "LOCALISATION":"Lille",
+    "REGION":"Haut De France",
+    "APPRENTISSAGE":null,
+    "METIERS":null,
+    "CATEGORIES":null
+  },
+  {
+    "ECOLES":"Wild Code School",
+    "TYPE_DE_FORMATION":"DATA",
+    "SITE_WEB":null,
+    "LOCALISATION":"Lille",
+    "REGION":null,
+    "APPRENTISSAGE":null,
+    "METIERS":null,
+    "CATEGORIES":null
+  }
+]
