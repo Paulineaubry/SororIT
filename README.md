@@ -1,132 +1,71 @@
-# Projet SororIT - Guide d'installation
 
-## Prérequis
-- Python 3.8+
-- PostgreSQL installé et configuré
-- Git
+# SororIT - Nettoyage et Fusion des Données (Associations & Écoles)
 
-## Installation
+Ce projet contient un script `clean_data.py` qui permet de **nettoyer, enrichir et fusionner** les données des associations et écoles pour SororIT.
 
-### 1. Cloner le projet
+## Utilisation du Script
+
+Le script peut être utilisé de deux façons :
+1. **En ligne de commande** (mode rapide par défaut)
+2. **Intégré dans Flask ou tout autre code Python**
+
+### 1. Exécution Rapide (sans géocodage)
+Depuis la racine du projet :
 ```bash
-git clone [URL_DU_REPO]
-cd SororIT
+python clean_data.py
 ```
+Cela :
+- Nettoie les fichiers `data/assos_geocoded.json` et `data/ecolesV5_enriched.xlsx`
+- Supprime les doublons et normalise les colonnes
+- Exporte dans `output/` :
+  - `assos_cleaned.json`
+  - `ecoles_cleaned.json`
+  - `all_cleaned.json` (fusion)
 
-### 2. Créer l'environnement virtuel
-
-**Ubuntu/Mac:**
+### 2. Exécution Complète (avec géocodage)
+Pour enrichir les coordonnées manquantes :
 ```bash
-python3 -m venv dbt-env
-source dbt-env/bin/activate
+python
+>>> from clean_data import clean_data
+>>> clean_data(mode="full")
+>>> exit()
+```
+Cela utilise **OpenStreetMap (Nominatim)** pour compléter les coordonnées et peut prendre du temps (1-2 secondes par ligne sans coordonnées).
+
+## Intégration dans Flask
+
+Vous pouvez directement intégrer le script pour que les données soient nettoyées avant utilisation :
+```python
+from clean_data import clean_data
+import json
+import os
+
+# Nettoyer les données (mode rapide ou complet)
+clean_data(mode="fast")  # ou "full" pour inclure le géocodage
+
+# Charger les données fusionnées
+output_file = os.path.join("output", "all_cleaned.json")
+with open(output_file, "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+# Exemple : afficher le nombre d'enregistrements
+print(f"Nombre total d'entrées : {len(data)}")
 ```
 
-**Windows:**
+## Dépendances
+Assurez-vous d’avoir installé :
 ```bash
-python -m venv dbt-env
-dbt-env\Scripts\activate
+pip install pandas geopy openpyxl
 ```
 
-### 3. Installer les dépendances
-```bash
-pip install -r requirements.txt
+## Organisation du Projet
+```
+data/           # Fichiers sources (bruts)
+output/         # Résultats nettoyés (JSON)
+clean_data.py   # Script principal
+README_CLEAN_DATA.md  # Guide spécifique pour le script
 ```
 
-### 4. Configuration PostgreSQL
-
-#### Ubuntu
-```bash
-sudo -u postgres psql
-```
-
-#### Mac (avec Homebrew)
-```bash
-psql postgres
-```
-
-#### Windows
-Utiliser pgAdmin ou psql depuis le menu Windows
-
-#### Commandes SQL communes
-```sql
--- Remplacer YOUR_USERNAME par votre nom d'utilisateur
-CREATE USER "YOUR_USERNAME" WITH PASSWORD 'your_password';
-CREATE DATABASE dbsoror OWNER "YOUR_USERNAME";
-GRANT ALL PRIVILEGES ON DATABASE dbsoror TO "YOUR_USERNAME";
-\q
-```
-
-### 5. Configuration dbt
-
-Copier le fichier d'exemple :
-```bash
-cp profiles.yml.example ~/.dbt/profiles.yml
-```
-
-**Ubuntu/Mac:**
-```bash
-nano ~/.dbt/profiles.yml
-```
-
-**Windows:**
-```bash
-notepad %USERPROFILE%\.dbt\profiles.yml
-```
-
-Modifier les valeurs :
-- `user`: votre nom d'utilisateur PostgreSQL
-- `password`: votre mot de passe PostgreSQL
-- `host`: localhost (ou l'adresse de votre serveur PostgreSQL)
-
-### 6. Tester la configuration
-```bash
-dbt debug
-```
-
-Vous devriez voir `Connection test: [OK]`.
-
-### 7. Exécuter le projet
-```bash
-dbt run
-dbt test
-```
-
-## Structure du projet
-
-- `models/staging/`: Modèles de données brutes
-- `models/intermediate/`: Transformations intermédiaires
-- `models/marts/`: Modèles finaux pour l'analyse
-- `tests/`: Tests de qualité des données
-- `macros/`: Fonctions réutilisables
-
-## Bonnes pratiques
-
-1. **Branches Git**: Créer une branche pour chaque fonctionnalité
-2. **Tests**: Toujours tester avant de merger (`dbt test`)
-3. **Documentation**: Documenter les modèles dans les fichiers `.yml`
-4. **Peer Review**: Faire réviser les modifications par un collègue
-
-## Environnements
-
-- **dev**: Développement local (votre schéma personnel)
-- **staging**: Tests d'intégration (optionnel)
-- **prod**: Production (attention aux modifications)
-
-## Problèmes courants
-
-### Erreur de connexion PostgreSQL
-- Vérifier que PostgreSQL est démarré
-- Vérifier les identifiants dans `~/.dbt/profiles.yml`
-- Tester la connexion directe : `psql -h localhost -U YOUR_USERNAME -d dbsoror`
-
-### Erreur "dbt command not found"
-- Vérifier que l'environnement virtuel est activé
-- Réinstaller dbt : `pip install dbt-postgres`
-
-### Conflits de schéma
-- Chaque développeur devrait avoir son propre schéma
-- Utiliser `schema: dev_{{ var('developer_name') }}` dans les modèles
-
-## Contact
-
-Pour toute question technique, contactez l'équipe sur [canal de communication].
+## Notes
+- Le **mode complet** effectue des appels API pour le géocodage (limités en vitesse).
+- Les données fusionnées (`all_cleaned.json`) sont prêtes à être consommées par Flask, Streamlit ou d’autres applications.
