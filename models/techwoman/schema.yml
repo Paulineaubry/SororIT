@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: good_morning_techwoman
+    description: "Vue nettoyée et enrichie des ressources (YouTube, podcast, blog) pour les femmes dans la tech."
+    columns:
+      - name: id
+        description: "Identifiant unique de la ressource"
+        tests:
+          - not_null
+          - unique
+
+      - name: title
+        description: "Titre de la ressource"
+        tests:
+          - not_null
+
+      - name: resource_type
+        description: "Type de contenu : podcast, youtube, blog, autre"
+        tests:
+          - accepted_values:
+              values: ['podcast', 'youtube', 'blog', 'autre']
+
+      - name: theme
+        description: "Thème principal de la ressource (data, UX, IA, etc.)"
+
+      - name: url
+        description: "Lien vers la ressource"
+        tests:
+          - not_null
+          - unique
+
+      - name: description
+        description: "Description ou objectif de la ressource"
+
+      - name: source
+        description: "Origine de la donnée (manuel, API, etc.)"
+
+
+  

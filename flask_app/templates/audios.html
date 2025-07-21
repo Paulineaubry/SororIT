@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audios by Theme</title>
+</head>
+<body>
+    <h1>Audios by Theme</h1>
+
+    <form method="get" action="/audios">
+        <label for="theme">Select Theme:</label>
+        <select name="theme" id="theme" onchange="this.form.submit()">
+            <option value="">All Themes</option>
+            {% for theme in themes %}
+                <option value="{{ theme }}" {% if theme == selected_theme %}selected{% endif %}>{{ theme }}</option>
+            {% endfor %}
+        </select>
+    </form>
+
+    <ul>
+        {% for audio in audios %}
+            <li>
+                <h2>{{ audio['episode_titre'] }}</h2>
+                <p><strong>Theme:</strong> {{ audio['theme'] }}</p>
+                <p><strong>Description:</strong> {{ audio['description'] }}</p>
+                {% if audio['embed_url'] %}
+                    <iframe src="{{ audio['embed_url'] }}" width="100%" height="80" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                {% else %}
+                    <a href="{{ audio['url'] }}" target="_blank">Listen</a>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

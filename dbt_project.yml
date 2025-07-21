@@ -1,36 +1,27 @@
-
-# Name your project! Project names should contain only lowercase characters
-# and underscores. A good package name should reflect your organization's
-# name or the intended use of these models
+# Nom du projet 
 name: 'SororIT'
 version: '1.0.0'
 
-# This setting configures which "profile" dbt uses for this project.
+# Indique le profil dbt à utiliser pour ce projet (doit correspondre au nom dans profiles.yml)
 profile: 'SororIT'
 
-# These configurations specify where dbt should look for different types of files.
-# The `model-paths` config, for example, states that models in this project can be
-# found in the "models/" directory. You probably won't need to change these!
-model-paths: ["models"]
-analysis-paths: ["analyses"]
-test-paths: ["tests"]
-seed-paths: ["seeds"]
-macro-paths: ["macros"]
-snapshot-paths: ["snapshots"]
+# Chemins vers les différents types de fichiers utilisés par dbt
+model-paths: ["models"]         # Modèles dbt
+analysis-paths: ["analyses"]    # Analyses SQL
+test-paths: ["tests"]            # Tests personnalisés
+seed-paths: ["seeds"]            # Données brutes (CSV)
+macro-paths: ["macros"]          # Macros Jinja personnalisées
+snapshot-paths: ["snapshots"]    # Snapshots (suivi d'historique)
 
-clean-targets:         # directories to be removed by `dbt clean`
+# Dossiers à nettoyer avec la commande `dbt clean`
+clean-targets:
   - "target"
   - "dbt_packages"
 
+# Configuration des modèles
+# Documentation complète : https://docs.getdbt.com/fr/docs/configuring-models
 
-# Configuring models
-# Full documentation: https://docs.getdbt.com/docs/configuring-models
-
-# In this example config, we tell dbt to build all models in the example/
-# directory as views. These settings can be overridden in the individual model
-# files using the `{{ config(...) }}` macro.
 models:
   SororIT:
-    # Config indicated by + and applies to all files under models/example/
-    example:
-      +materialized: view
+    +materialized: view
+

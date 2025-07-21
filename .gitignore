@@ -51,3 +51,4 @@ ENV/
 # Credentials - IMPORTANT !
 profiles.yml
 .dbt/profiles.yml
+journal.sh

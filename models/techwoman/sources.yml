@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: public
+    schema: public
+    tables:
+      - name: resources_techwoman
+        columns:
+          - name: id, title, resource_type, theme, url, description, source
+
+          

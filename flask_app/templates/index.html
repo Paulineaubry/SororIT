@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Good Morning Techwoman</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f6f8fa;
+            padding: 2rem;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #c94f7c;
+            margin-bottom: 2rem;
+        }
+
+        form {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        select {
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+
+        li {
+            background-color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+
+        li:hover {
+            transform: translateY(-5px);
+        }
+
+        strong {
+            color: #2c3e50;
+            font-size: 1.2rem;
+        }
+
+        a {
+            color: #2980b9;
+            word-break: break-word;
+        }
+
+        em {
+            display: block;
+            margin-top: 0.5rem;
+            color: #666;
+        }
+
+        small {
+            display: block;
+            margin-top: 0.5rem;
+            color: #999;
+        }
+
+        .media-container {
+            margin: 1rem 0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .media-container iframe {
+            width: 100%;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .youtube-embed {
+            height: 200px;
+        }
+
+        .spotify-embed {
+            height: 152px;
+        }
+
+        .media-toggle {
+            background: #c94f7c;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 0.5rem 0;
+            font-size: 0.9rem;
+        }
+
+        .media-toggle:hover {
+            background: #a8467a;
+        }
+
+        .media-content {
+            display: none;
+        }
+
+        .media-content.show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ressources pour les Techwomen</h1>
+
+    <form method="get" action="/">
+        <label for="theme">Filtrer par thème :</label>
+        <select name="theme" id="theme" onchange="this.form.submit()">
+            <option value="">-- Tous les thèmes --</option>
+            {% for theme in themes %}
+                <option value="{{ theme }}" {% if selected_theme == theme %}selected{% endif %}>{{ theme }}</option>
+            {% endfor %}
+        </select>
+    </form>
+
+    <ul>
+        {% for res in ressources %}
+        <li>
+            <strong>{{ res.title }}</strong> ({{ res.type }})<br>
+            Thème : {{ res.theme }}<br>
+            
+            <!-- Intégration média selon le type -->
+            {% if res.type == 'youtube' and res.youtube_id %}
+                <button class="media-toggle" onclick="toggleMedia('media-{{ loop.index }}')">
+                    🎥 Voir la vidéo
+                </button>
+                <div id="media-{{ loop.index }}" class="media-content">
+                    <div class="media-container">
+                        <iframe 
+                            class="youtube-embed"
+                            src="https://www.youtube.com/embed/{{ res.youtube_id }}" 
+                            title="{{ res.title }}"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            {% elif res.type == 'podcast' and res.spotify_id %}
+                <button class="media-toggle" onclick="toggleMedia('media-{{ loop.index }}')">
+                    🎧 Écouter le podcast
+                </button>
+                <div id="media-{{ loop.index }}" class="media-content">
+                    <div class="media-container">
+                        <iframe 
+                            class="spotify-embed"
+                            src="https://open.spotify.com/embed/show/{{ res.spotify_id }}?utm_source=generator" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            {% endif %}
+            
+            <a href="{{ res.url }}" target="_blank">{{ res.url }}</a>
+            <em>{{ res.description }}</em>
+            <small>Source : {{ res.source }}</small>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <script>
+        function toggleMedia(mediaId) {
+            const mediaContent = document.getElementById(mediaId);
+            const button = mediaContent.previousElementSibling;
+            
+            if (mediaContent.classList.contains('show')) {
+                mediaContent.classList.remove('show');
+                if (button.textContent.includes('🎥')) {
+                    button.textContent = '🎥 Voir la vidéo';
+                } else if (button.textContent.includes('🎧')) {
+                    button.textContent = '🎧 Écouter le podcast';
+                }
+            } else {
+                mediaContent.classList.add('show');
+                if (button.textContent.includes('🎥')) {
+                    button.textContent = '❌ Masquer la vidéo';
+                } else if (button.textContent.includes('🎧')) {
+                    button.textContent = '❌ Masquer le podcast';
+                }
+            }
+        }
+
+        // Optionnel : Fermer les autres médias quand on en ouvre un nouveau
+        function closeOtherMedias(currentMediaId) {
+            const allMedias = document.querySelectorAll('.media-content.show');
+            allMedias.forEach(media => {
+                if (media.id !== currentMediaId) {
+                    media.classList.remove('show');
+                    const button = media.previousElementSibling;
+                    if (button.textContent.includes('❌')) {
+                        if (button.textContent.includes('vidéo')) {
+                            button.textContent = '🎥 Voir la vidéo';
+                        } else {
+                            button.textContent = '🎧 Écouter le podcast';
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
+
