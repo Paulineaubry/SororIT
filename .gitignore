@@ -50,4 +50,10 @@ ENV/
 
 # Credentials - IMPORTANT !
 profiles.yml
+.dbt/profiles.yml.env
+
+# Credentials - IMPORTANT !
+.env
+profiles.yml
 .dbt/profiles.yml
+profiles_yml_example
