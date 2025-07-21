@@ -36,7 +36,7 @@ pip install dbt-postgres==1.7.9
 
 Créer le fichier `profiles.yml` dans le bon dossier :
 
-* **Linux / Mac** : `~/.dbt/profiles.yml`
+* **Linux / Mac** : `nano ~/.dbt/profiles.yml`
 * **Windows** : `%USERPROFILE%\.dbt\profiles.yml`
 
 ### 🔹 Exemple pour Aicha
