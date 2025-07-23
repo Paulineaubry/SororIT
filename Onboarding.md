@@ -139,7 +139,7 @@ dbt test
 
 # Commit + push
 git add <le_nom_de_mon_fichier>
-git commit -m "fmon_commentaire"
+git commit -m "mon_commentaire"
 git push 
 ```
 
