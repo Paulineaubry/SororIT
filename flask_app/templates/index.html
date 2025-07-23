@@ -2,40 +2,16 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Good Morning Techwoman</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f6f8fa;
-            padding: 2rem;
-            color: #333;
-        }
-
-        h1 {
-            text-align: center;
-            color: #c94f7c;
-            margin-bottom: 2rem;
-        }
-
-        form {
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-
-        select {
-            padding: 0.5rem 1rem;
-            border-radius: 6px;
-            border: 1px solid #ccc;
-            font-size: 1rem;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 1.5rem;
-        }
+    <meta http-equiv="refresh" content="0;url={{ redirect_url }}">
+    <title>{{ page_title }}</title>
+    <script>
+        window.location.href = "{{ redirect_url }}";
+    </script>
+</head>
+<body>
+    <p>Redirection vers <a href="{{ redirect_url }}">Good Morning TechWoman</a>...</p>
+</body>
+</html>
 
         li {
             background-color: white;

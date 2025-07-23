@@ -1,9 +1,16 @@
 from flask import Flask
-from flask_app.routes import routes
-from dotenv import load_dotenv
+from .db import get_connection
+from .routes import routes  # Assure-toi que tu importes le bon blueprint
 
 def create_app():
-    load_dotenv()  # Charge .env
     app = Flask(__name__)
+
+    # Test de connexion à Supabase
+    conn = get_connection()
+    if conn:
+        conn.close()
+
+    # Enregistrer les routes (IMPORTANT)
     app.register_blueprint(routes)
+
     return app
