@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>We Can Do It - Test des métiers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url("/static/images/wecandoit.png") no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 150px auto;
+            background: rgba(201, 167, 167, 0.22);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .question {
+            margin-bottom: 20px;
+            display: none; /* Masqué par défaut */
+        }
+
+        .question.active {
+            display: block; /* Afficher uniquement la question active */
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            font-size: 1.2em;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1.1em;
+        }
+
+        button {
+            background: rgba(201, 167, 167, 0.22);
+            color: rgba(163, 73, 73);
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #f9fafb;
+        }
+
+        .result, .jobs {
+            background: rgba(231, 197, 197, 0.22);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 600px;
+            margin-top: 150px;
+        }
+
+        /* Bloc navigation en bas centré */
+        .nav-images {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-images img {
+            width: 150px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .nav-images img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Section résultat */
+        #result-section {
+            display: none;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Formulaire du questionnaire -->
+    <form id="quiz-form" method="POST">
+        <!-- Q1 -->
+        <div class="question active">
+            <label>Q1. Ce que tu préfères :</label>
+            <select name="q1" required>
+                <option value="">-- Choisir --</option>
+                <option value="1">Créer un site/app</option>
+                <option value="2">Analyser des données</option>
+                <option value="3">Imaginer des designs</option>
+                <option value="4">Gérer des serveurs/cloud</option>
+                <option value="5">Organiser un projet</option>
+            </select>
+        </div>
+
+        <!-- Q2 -->
+        <div class="question">
+            <label>Q2. Ce qui t’attire le plus :</label>
+            <select name="q2" required>
+                <option value="">-- Choisir --</option>
+                <option value="1">Concevoir des fonctionnalités</option>
+                <option value="2">Étudier des chiffres</option>
+                <option value="3">Rendre une app jolie</option>
+                <option value="4">Sécuriser des informations</option>
+                <option value="5">Coordonner une équipe</option>
+            </select>
+        </div>
+
+        <!-- Q3 -->
+        <div class="question">
+            <label>Q3. Ce qui te motive :</label>
+            <select name="q3" required>
+                <option value="">-- Choisir --</option>
+                <option value="1">Résoudre un problème technique</option>
+                <option value="2">Comprendre ce que racontent les données</option>
+                <option value="3">Améliorer l'expérience utilisateur</option>
+                <option value="4">Automatiser un système</option>
+                <option value="5">Réussir un projet</option>
+            </select>
+        </div>
+
+        <!-- Q4 -->
+        <div class="question">
+            <label>Q4. Ton point fort :</label>
+            <select name="q4" required>
+                <option value="">-- Choisir --</option>
+                <option value="1">Logique et pragmatique</option>
+                <option value="2">Analyser des infos</option>
+                <option value="3">Créatif et visuel</option>
+                <option value="4">Organisé</option>
+                <option value="5">Vigilant</option>
+            </select>
+        </div>
+
+        <!-- Q5 -->
+        <div class="question">
+            <label>Q5. Quand tu utilises une app, tu remarques :</label>
+            <select name="q5" required>
+                <option value="">-- Choisir --</option>
+                <option value="1">Si tout fonctionne</option>
+                <option value="2">Les données/recommandations</option>
+                <option value="3">Le look/design</option>
+                <option value="4">Les questions de sécurité</option>
+                <option value="5">La structure/menus</option>
+            </select>
+        </div>
+
+        <!-- Q6 -->
+        <div class="question">
+            <label>Q6. Travailler en équipe pour toi, c’est :</label>
+            <select name="q6" required>
+                <option value="">-- Choisir --</option>
+                <option value="1">Partager du code</option>
+                <option value="2">Échanger des analyses</option>
+                <option value="3">Valider des maquettes</option>
+                <option value="4">Sécuriser un système</option>
+                <option value="5">Planifier des tâches</option>
+            </select>
+        </div>
+
+        <!-- Q7 -->
+        <div class="question">
+            <label>Q7. Le projet de tes rêves :</label>
+            <select name="q7" required>
+                <option value="">-- Choisir --</option>
+                <option value="1">Créer un site/app</option>
+                <option value="2">Tableau de bord interactif</option>
+                <option value="3">Design complet d'une app</option>
+                <option value="4">Infrastructure Cloud</option>
+                <option value="5">Organiser un hackathon</option>
+            </select>
+        </div>
+
+        <!-- Q8 -->
+        <div class="question">
+            <label>Q8. Ton style d’apprentissage :</label>
+            <select name="q8" required>
+                <option value="">-- Choisir --</option>
+                <option value="1">Faire et expérimenter</option>
+                <option value="2">Travailler sur des données</option>
+                <option value="3">Créer et dessiner</option>
+                <option value="4">Installer/configurer des outils</option>
+                <option value="5">Organiser et planifier</option>
+            </select>
+        </div>
+    </form>
+
+    <!-- Résultat et bouton recommencer -->
+    <div id="result-section">
+        {% if result %}
+            <div class="result">
+                <h2>Domaine recommandé : {{ result }}</h2>
+            </div>
+            {% if recommendations %}
+                <div class="jobs">
+                    <h3>Métiers suggérés :</h3>
+                    <ul>
+                        {% for job in recommendations %}
+                            <li><b>{{ job['Métier'] }}</b> : {{ job['Description_FR'] }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+        {% endif %}
+        <button id="restart-btn">Recommencer</button>
+    </div>
+
+    <!-- Images de navigation -->
+    <div class="nav-images">
+        <a href="{{ url_for('good_morning') }}">
+            <img src="/static/images/podcast.png" alt="Good Morning Techwoman">
+        </a>
+        <a href="{{ url_for('we_want_you') }}">
+            <img src="/static/images/assos.png" alt="We Want You">
+        </a>
+    </div>
+
+    <!-- Script pour afficher question par question -->
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const questions = document.querySelectorAll(".question");
+        const form = document.getElementById("quiz-form");
+        const resultSection = document.getElementById("result-section");
+        const restartBtn = document.getElementById("restart-btn");
+
+        let currentStep = 0;
+
+        function showQuestion(step) {
+            questions.forEach((q, i) => q.classList.toggle("active", i === step));
+        }
+
+        questions.forEach((q, index) => {
+            q.querySelector("select").addEventListener("change", () => {
+                if (index < questions.length - 1) {
+                    currentStep++;
+                    showQuestion(currentStep);
+                } else {
+                    form.style.display = "none";
+                    resultSection.style.display = "block";
+                }
+            });
+        });
+
+        restartBtn.addEventListener("click", () => {
+            form.reset();
+            currentStep = 0;
+            showQuestion(currentStep);
+            form.style.display = "block";
+            resultSection.style.display = "none";
+        });
+
+        // Affiche la première question
+        showQuestion(currentStep);
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url("/static/images/SororIt.png") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
