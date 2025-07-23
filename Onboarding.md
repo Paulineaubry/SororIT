@@ -128,7 +128,7 @@ Commencez par créer votre branche localement si elle n'existe pas encore (ou la
 git fetch origin
 
 # Créer la branche en local à partir de la distante 
-git checkout -b We_can_do_it origin/We_can_do_it
+git checkout -b <le_nom_de_ma_branche> origin/<le_nom_de_ma_branche>
 
 # Se placer sur sa branche
 git checkout We_can_do_it
@@ -138,9 +138,9 @@ dbt run
 dbt test
 
 # Commit + push
-git add .
-git commit -m "feat: ajout du modèle d'orientation"
-git push origin We_can_do_it
+git add <le_nom_de_mon_fichier>
+git commit -m "fmon_commentaire"
+git push 
 ```
 
 Créer ensuite une **pull request** dans GitHub vers `main`.
