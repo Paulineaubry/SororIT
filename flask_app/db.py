@@ -1,5 +1,5 @@
 import psycopg2
-from config import DB_CONFIG
+from flask_app.config import DB_CONFIG
 import logging
 
 # Configure logging

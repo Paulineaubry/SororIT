@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résultat de la synchronisation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Résultat de la synchronisation</h1>
+        
+        {% if success %}
+        <div class="alert alert-success">
+            <h2>{{ message }}</h2>
+        </div>
+        {% else %}
+        <div class="alert alert-danger">
+            <h2>{{ message }}</h2>
+        </div>
+        {% endif %}
+        
+        <div class="card">
+            <h3>Détails de l'opération:</h3>
+            <pre>{{ output }}</pre>
+        </div>
+        
+        <div class="actions">
+            <a href="/good-morning-techwoman" class="btn">Retour à Good Morning TechWoman</a>
+        </div>
+    </div>
+</body>
+</html>

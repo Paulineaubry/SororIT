@@ -3,6 +3,8 @@ from flask_app.db import get_connection
 import re
 import pandas as pd
 import logging
+import subprocess
+import os
 
 routes = Blueprint("routes", __name__)
 
@@ -14,15 +16,31 @@ logging.basicConfig(level=logging.INFO)
 def get_resources():
     conn = get_connection()
     cur = conn.cursor()
+    
+    # Obtenir toutes les ressources podcasts
     cur.execute("""
-        SELECT podcast_id, episode_titre, url, theme, release_date, podcast_titre
-        FROM public.resources_techwoman 
+        SELECT podcast_id, episode_titre, url, theme, release_date, podcast_titre, 'podcast' as type, description
+        FROM public.podcasts 
         ORDER BY episode_titre
     """)
-    rows = cur.fetchall()
+    podcast_rows = cur.fetchall()
+    
+    # Obtenir toutes les ressources YouTube
+    cur.execute("""
+        SELECT '' as podcast_id, titre as episode_titre, url, theme, '' as release_date, 
+               concat(type, ' - ', titre) as podcast_titre, 'youtube' as type, description
+        FROM public.youtube_channels 
+        ORDER BY titre
+    """)
+    youtube_rows = cur.fetchall()
+    
+    # Fermeture du curseur et de la connexion
     cur.close()
     conn.close()
 
+    # Combiner les résultats
+    all_rows = podcast_rows + youtube_rows
+    
     results = [
         {
             "podcast_id": row[0],
@@ -30,9 +48,11 @@ def get_resources():
             "url": row[2],
             "theme": row[3],
             "release_date": row[4],
-            "podcast_titre": row[5]
+            "podcast_titre": row[5],
+            "type": row[6],
+            "description": row[7]
         }
-        for row in rows
+        for row in all_rows
     ]
     return jsonify(results)
 
@@ -62,23 +82,25 @@ def get_audios_by_theme():
         conn = get_connection()
         cur = conn.cursor()
 
+        # Récupération des podcasts de la table podcasts
         if theme:
             cur.execute("""
                 SELECT episode_titre, theme, url
-                FROM resources_techwoman
+                FROM podcasts
                 WHERE theme = %s
                 ORDER BY episode_titre
             """, (theme,))
         else:
             cur.execute("""
                 SELECT episode_titre, theme, url
-                FROM resources_techwoman
+                FROM podcasts
                 ORDER BY episode_titre
             """)
 
         rows = cur.fetchall()
 
-        cur.execute("SELECT DISTINCT theme FROM resources_techwoman ORDER BY theme")
+        # Récupération des thèmes uniques de la table podcasts
+        cur.execute("SELECT DISTINCT theme FROM podcasts ORDER BY theme")
         themes = [row[0] for row in cur.fetchall()]
 
         cur.close()
@@ -174,96 +196,232 @@ def test_csv():
 def good_morning_techwoman():
     """
     Route unique pour la fonctionnalité "Good Morning TechWoman".
-    Affiche les ressources audio filtrées par thème.
+    Affiche les ressources audio (podcasts) et vidéo (YouTube) filtrées par thème.
     """
     theme = request.args.get("theme")
+    resource_type = request.args.get("resource_type")  # Pour filtrer par type de ressource (podcast/youtube)
     
     try:
         # Tentative de connexion à Supabase
         conn = get_connection()
         cur = conn.cursor()
 
-        # Récupération des thèmes pour le filtre
-        cur.execute("SELECT DISTINCT theme FROM resources_techwoman ORDER BY theme")
+        # Récupération des thèmes pour le filtre (combinaison des thèmes des deux tables)
+        cur.execute("SELECT DISTINCT theme FROM podcasts UNION SELECT DISTINCT theme FROM youtube_channels ORDER BY theme")
         themes = [row[0] for row in cur.fetchall()]
         
-        # Si un thème est sélectionné, filtrer les ressources
-        if theme:
-            cur.execute("""
-                SELECT episode_titre, theme, url
-                FROM resources_techwoman
-                WHERE theme = %s
-                ORDER BY episode_titre
-            """, (theme,))
-        else:
-            cur.execute("""
-                SELECT episode_titre, theme, url
-                FROM resources_techwoman
-                ORDER BY episode_titre
-            """)
-
-        rows = cur.fetchall()
+        # Initialisation de la liste des ressources
+        resources = []
+        
+        # Récupération des podcasts si aucun type n'est spécifié ou si le type est 'podcast'
+        if not resource_type or resource_type == 'podcast':
+            if theme:
+                cur.execute("""
+                    SELECT episode_titre as titre, theme, url, podcast_id, release_date, podcast_titre, description
+                    FROM podcasts
+                    WHERE theme = %s
+                    ORDER BY episode_titre
+                """, (theme,))
+            else:
+                cur.execute("""
+                    SELECT episode_titre as titre, theme, url, podcast_id, release_date, podcast_titre, description
+                    FROM podcasts
+                    ORDER BY episode_titre
+                """)
+                
+            podcast_rows = cur.fetchall()
+            
+            # Traitement des podcasts
+            for row in podcast_rows:
+                embed_url = row[2]  # url
+                if "spotify.com" in row[2]:
+                    embed_url = row[2].replace("open.spotify.com/episode", "open.spotify.com/embed/episode")
+                
+                logging.info(f"Podcast URL originale: {row[2]}")
+                logging.info(f"Podcast URL embed: {embed_url}")
+                
+                resources.append({
+                    "titre": row[0],
+                    "theme": row[1],
+                    "url": row[2],
+                    "embed_url": embed_url,
+                    "resource_type": "podcast",
+                    "podcast_id": row[3],
+                    "release_date": row[4],
+                    "podcast_titre": row[5],
+                    "description": row[6]
+                })
+        
+        # Récupération des vidéos YouTube si aucun type n'est spécifié ou si le type est 'youtube'
+        if not resource_type or resource_type == 'youtube':
+            if theme:
+                cur.execute("""
+                    SELECT titre, theme, url, type, description, last_video_embed_url
+                    FROM youtube_channels
+                    WHERE theme = %s
+                    ORDER BY titre
+                """, (theme,))
+            else:
+                cur.execute("""
+                    SELECT titre, theme, url, type, description, last_video_embed_url
+                    FROM youtube_channels
+                    ORDER BY titre
+                """)
+                
+            youtube_rows = cur.fetchall()
+            
+            # Traitement des vidéos YouTube
+            for row in youtube_rows:
+                embed_url = row[5] if row[5] else row[2]  # Utiliser last_video_embed_url si disponible, sinon url
+                
+                logging.info(f"YouTube URL originale: {row[2]}")
+                logging.info(f"YouTube URL embed: {embed_url}")
+                
+                resources.append({
+                    "titre": row[0],
+                    "theme": row[1],
+                    "url": row[2],
+                    "embed_url": embed_url,
+                    "resource_type": "youtube",
+                    "podcast_id": "",
+                    "release_date": "",
+                    "podcast_titre": f"{row[3]} - {row[0]}",  # type - titre
+                    "description": row[4]
+                })
+        
         cur.close()
         conn.close()
 
-        # Traitement des ressources pour l'affichage
-        audios = []
-        for row in rows:
-            embed_url = row[2]
-            if "spotify.com" in row[2]:
-                embed_url = row[2].replace("open.spotify.com/episode", "open.spotify.com/embed/episode")
-                
-            logging.info(f"URL originale: {row[2]}")
-            logging.info(f"URL embed: {embed_url}")
-            
-            audios.append({
-                "episode_titre": row[0],
-                "theme": row[1],
-                "url": row[2],
-                "embed_url": embed_url
-            })
-
     except Exception as e:
-        logging.error(f"Erreur lors de la récupération des audios depuis Supabase : {e}")
-        # Fallback : lecture depuis le fichier CSV
-        csv_path = "../data/episodes_podcasts.csv"
+        logging.error(f"Erreur lors de la récupération des ressources depuis Supabase : {e}")
+        
+        # Fallback : lecture depuis les fichiers CSV
+        resources = []
+        all_themes = set()
+        
+        # 1. Lecture des podcasts
         try:
-            data = pd.read_csv(csv_path)
+            podcasts_path = "data/episodes_podcasts.csv"
+            podcasts_data = pd.read_csv(podcasts_path)
             
-            # Récupération des thèmes pour le filtre
-            themes = data['theme'].unique()
+            # Ajout des thèmes à l'ensemble
+            all_themes.update(podcasts_data['theme'].unique())
             
-            # Si un thème est sélectionné, filtrer les ressources
+            # Filtrage par thème si nécessaire
             if theme:
-                filtered_data = data[data['theme'] == theme]
+                filtered_podcasts = podcasts_data[podcasts_data['theme'] == theme]
             else:
-                filtered_data = data
-
-            # Traitement des ressources pour l'affichage
-            audios = []
-            for _, row in filtered_data.iterrows():
+                filtered_podcasts = podcasts_data
+                
+            # Traitement des podcasts pour l'affichage
+            for _, row in filtered_podcasts.iterrows():
                 embed_url = row['url']
                 if "spotify.com" in row['url']:
                     embed_url = row['url'].replace("open.spotify.com/episode", "open.spotify.com/embed/episode")
                 
-                audios.append({
-                    "episode_titre": row['episode_titre'],
+                resources.append({
+                    "titre": row['episode_titre'],
                     "theme": row['theme'],
                     "url": row['url'],
-                    "embed_url": embed_url
+                    "embed_url": embed_url,
+                    "resource_type": "podcast",
+                    "release_date": row.get('release_date', ''),
+                    "podcast_titre": row.get('podcast_titre', '')
                 })
                 
-        except Exception as csv_error:
-            logging.error(f"Erreur lors de la lecture du fichier CSV : {csv_error}")
-            return f"Erreur lors de la lecture du fichier CSV : {csv_error}", 500
+        except Exception as podcast_error:
+            logging.error(f"Erreur lors de la lecture du fichier podcasts : {podcast_error}")
+            
+        # 2. Lecture des vidéos YouTube
+        try:
+            youtube_path = "data/youtube_channels_with_videos.csv"
+            youtube_data = pd.read_csv(youtube_path)
+            
+            # Ajout des thèmes à l'ensemble
+            all_themes.update(youtube_data['theme'].unique())
+            
+            # Filtrage par thème si nécessaire
+            if theme:
+                filtered_youtube = youtube_data[youtube_data['theme'].str.contains(theme, case=False, na=False)]
+            else:
+                filtered_youtube = youtube_data
+                
+            # Traitement des vidéos YouTube pour l'affichage
+            for _, row in filtered_youtube.iterrows():
+                resources.append({
+                    "titre": row['titre'],
+                    "theme": row['theme'],
+                    "url": row['url'],
+                    "embed_url": row['last_video_embed_url'],
+                    "resource_type": "youtube",
+                    "description": row.get('description', '')
+                })
+                
+        except Exception as youtube_error:
+            logging.error(f"Erreur lors de la lecture du fichier YouTube : {youtube_error}")
+            
+        # Conversion de l'ensemble des thèmes en liste
+        themes = sorted(list(all_themes))
+            
+        # Si aucun fichier n'a pu être lu
+        if not resources:
+            return "Erreur lors de la lecture des fichiers de ressources", 500
+            
+        # Filtrage par type de ressource si nécessaire
+        if resource_type:
+            resources = [res for res in resources if res['resource_type'] == resource_type]
     
     return render_template(
         "good_morning_techwoman.html",
-        audios=audios,
+        resources=resources,
         themes=themes,
         selected_theme=theme,
+        selected_resource_type=resource_type,
         page_title="Good Morning TechWoman - Ressources Audio et Vidéo"
     )
+
+@routes.route("/sync_to_supabase", methods=["GET"])
+def sync_to_supabase():
+    """
+    Route pour synchroniser les fichiers CSV avec Supabase.
+    Cette route exécute le script de synchronisation et affiche le résultat.
+    """
+    try:
+        # Import et utilisation directe du script de synchronisation dans flask_app
+        from flask_app.sync_to_supabase import main as sync_main
+        
+        # Exécution du script en Python directement
+        import io
+        import contextlib
+        
+        # Capturer la sortie pour l'afficher dans le template
+        f = io.StringIO()
+        with contextlib.redirect_stdout(f), contextlib.redirect_stderr(f):
+            sync_result = sync_main()
+            
+        result_output = f.getvalue()
+        
+        # Log du résultat
+        logging.info(f"Synchronisation avec Supabase exécutée avec succès: {result_output}")
+        
+        # Retourner un message de succès
+        return render_template(
+            "sync_result.html", 
+            success=sync_result, 
+            message="Synchronisation avec Supabase effectuée avec succès!" if sync_result else "Des problèmes sont survenus lors de la synchronisation.",
+            output=result_output
+        )
+    except Exception as e:
+        # Log de l'erreur
+        logging.error(f"Erreur lors de la synchronisation avec Supabase: {str(e)}")
+        
+        # Retourner un message d'erreur
+        return render_template(
+            "sync_result.html", 
+            success=False, 
+            message="Erreur lors de la synchronisation avec Supabase.",
+            output=str(e)
+        )
 
 
 
